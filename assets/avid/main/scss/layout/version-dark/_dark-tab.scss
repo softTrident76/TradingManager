@@ -1,0 +1,38 @@
+[data-theme-version="dark"] {
+    .nav-tabs {
+        border-bottom-color: $d-border; 
+
+        &-vertical {
+            border-right-color: $d-border;
+        }
+
+        &-vertical.right-align {
+            border-left-color: $d-border;
+        }
+
+        .nav-link {
+            color: $d-ctl;
+            
+            &:hover {
+                border-color: $d-bg;
+                color: $d-ctl;
+            }
+
+            &.active {
+                background-color: $d-bg;
+                border: 1px solid $d-border;
+                color: $d-ctl;
+            }
+        }
+    }
+
+    .tab-pane-img {
+        border-color: $d-border;
+    }
+
+    .bordered-tab {
+        .tab-pane {
+            border-color: $d-border;
+        }
+    }
+}

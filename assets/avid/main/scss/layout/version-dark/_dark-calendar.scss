@@ -1,0 +1,20 @@
+[data-theme-version="dark"] {
+
+
+    .app-fullcalendar {
+
+        td, th, .fc-button {
+            border-color: $d-border;
+        }
+
+        .fc-day-number {
+            color: $d-ctl;
+        }
+
+        .fc-state-default {
+            box-shadow: none;
+        }
+
+    }
+
+}

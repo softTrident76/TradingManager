@@ -1,0 +1,9 @@
+.page-components {
+    button.btn {
+        @include custommq($max: 1440px) {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,22 @@
+.letter-info {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+}
+
+.letter-header {
+	border-bottom: solid 1px #aaaaaa;
+	height: 40px;
+	font-size: 18px;
+}
+
+.letter-title {
+	height: 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.letter-content {
+	
+}

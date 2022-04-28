@@ -1,0 +1,107 @@
+[data-container="wide-boxed"] {
+    @media (min-width: 992px) {
+        #main-wrapper {
+                width: 90%;
+                margin: 0 auto;
+        }        
+    }
+}
+
+
+[data-container="wide-boxed"][data-sidebar-style="full"] {
+    @media (min-width: 992px) {
+        .header {
+            width: 100%;
+        }  
+
+        .menu-toggle {
+            .header {
+                width: 100%;
+            } 
+        }      
+
+        @at-root [data-header-position="fixed"]#{&} {
+            .header {
+                width: 90%;
+            }
+
+            .menu-toggle {
+                .header {
+                    width: 90%;
+                } 
+            }
+        }
+    }
+}
+
+
+[data-container="wide-boxed"][data-sidebar-style="mini"] {
+    @media (min-width: 992px) {  
+        .header {
+            width: 100%;
+        }       
+
+        @at-root [data-header-position="fixed"]#{&} {
+            .header {
+                width: 90%;
+            }
+        }   
+    }
+}
+
+
+[data-container="wide-boxed"][data-sidebar-style="compact"] {
+    @media (min-width: 992px) {  
+        .header {
+            width: 100%;
+        }     
+
+        @at-root [data-header-position="fixed"]#{&} {
+            .header {
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+[data-container="wide-boxed"][data-sidebar-style="overlay"] {
+    @media (min-width: 992px) {  
+        .header {
+            width: 100%;
+        }     
+
+        @at-root [data-header-position="fixed"]#{&} {
+            .header {
+                width: 90%;
+            }
+        }  
+    }
+}
+
+
+
+[data-layout="horizontal"][data-container="wide-boxed"] {
+    .header {
+        width: 100%;
+    }
+
+    @at-root [data-sidebar-style="full"][data-header-position="fixed"]#{&} {
+        .header {
+            width: 90%;
+        }
+    }
+
+    @at-root [data-sidebar-style="mini"]#{&} {
+        .header {
+            width: 100%;
+        }
+    }
+
+    @at-root [data-sidebar-style="mini"][data-header-position="fixed"]#{&} {
+        .header {
+            width: 90%;
+        }
+    }
+}
+

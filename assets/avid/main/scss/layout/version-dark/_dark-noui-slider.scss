@@ -1,0 +1,19 @@
+[data-theme-version="dark"] {
+
+    .noUi-connects {
+        background-color: $d-bg;
+    }
+
+    .noUi-target {
+        border-color: $d-border;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .noUi-tooltip {
+        background-color: $dark-card;
+        border-color: $d-border;
+        color: $d-ctl;
+    }
+
+}

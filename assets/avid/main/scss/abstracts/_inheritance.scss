@@ -1,0 +1,89 @@
+
+
+%gradient-1 {
+    background: #f0a907;
+    background: -moz-linear-gradient(top, #f0a907 0%, #f53c79 100%);
+    background: -webkit-linear-gradient(top, #f0a907 0%,#f53c79 100%);
+    background: linear-gradient(to bottom, #f0a907 0%,#f53c79 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0a907', endColorstr='#f53c79',GradientType=0 );
+}
+
+%gradient-2 {
+    background: #4dedf5;
+    background: -moz-linear-gradient(top, #4dedf5 0%, #480ceb 100%);
+    background: -webkit-linear-gradient(top, #4dedf5 0%,#480ceb 100%);
+    background: linear-gradient(to bottom, #4dedf5 0%,#480ceb 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dedf5', endColorstr='#480ceb',GradientType=0 );
+}
+
+%gradient-3 {
+    background: #51f5ae;
+    background: -moz-linear-gradient(top, #51f5ae 0%, #3fbcda 100%);
+    background: -webkit-linear-gradient(top, #51f5ae 0%,#3fbcda 100%);
+    background: linear-gradient(to bottom, #51f5ae 0%,#3fbcda 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51f5ae', endColorstr='#3fbcda',GradientType=0 );
+}
+
+%gradient-4 {
+    background: #f25521;
+    background: -moz-linear-gradient(left, #f25521 0%, #f9c70a 100%);
+    background: -webkit-linear-gradient(left, #f25521 0%,#f9c70a 100%);
+    background: linear-gradient(to right, #f25521 0%,#f9c70a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25521', endColorstr='#f9c70a',GradientType=1 );
+}
+
+%gradient-5 {
+    background: #f53c79;
+    background: -moz-linear-gradient(left, #f53c79 0%, #f0a907 100%);
+    background: -webkit-linear-gradient(left, #f53c79 0%,#f0a907 100%);
+    background: linear-gradient(to right, #f53c79 0%,#f0a907 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f53c79', endColorstr='#f0a907',GradientType=1 );
+}
+
+%gradient-6 {
+    background: #36b9d8;
+    background: -moz-linear-gradient(left, #36b9d8 0%, #4bffa2 100%);
+    background: -webkit-linear-gradient(left, #36b9d8 0%,#4bffa2 100%);
+    background: linear-gradient(to right, #36b9d8 0%,#4bffa2 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36b9d8', endColorstr='#4bffa2',GradientType=1 );
+}
+
+%gradient-7 {
+    background: #4400eb;
+    background: -moz-linear-gradient(left, #4400eb 0%, #44e7f5 100%);
+    background: -webkit-linear-gradient(left, #4400eb 0%,#44e7f5 100%);
+    background: linear-gradient(to right, #4400eb 0%,#44e7f5 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4400eb', endColorstr='#44e7f5',GradientType=1 );
+}
+
+%gradient-8 {
+    background: #F7B00F;
+    background: -moz-linear-gradient(top, #F7B00F 0%, #F25521 100%);
+    background: -webkit-linear-gradient(top, #F7B00F 0%,#F25521 100%);
+    background: linear-gradient(to bottom, #F7B00F 0%,#F25521 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F7B00F', endColorstr='#F25521',GradientType=1 );
+
+    // background: linear-gradient(top, #f25521 0%, #f9c70a 100%);
+}
+
+%gradient-9 {
+    background: #f31e7a !important;
+    background: -moz-linear-gradient(left, #f31e7a 0%, #fd712c 100%);
+    background: -webkit-linear-gradient(left, #f31e7a 0%,#fd712c 100%);
+    background: linear-gradient(to right, #f31e7a 0%,#fd712c 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f31e7a', endColorstr='#fd712c',GradientType=1 );
+}
+
+%gradient-10 {
+    background: #f25521 !important;
+    background: -moz-linear-gradient(left, #f25521 0%, #f9c70a 100%);
+    background: -webkit-linear-gradient(left, #f25521 0%,#f9c70a 100%);
+    background: linear-gradient(to top, #f25521 0%,#f9c70a 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f25521', endColorstr='#f9c70a',GradientType=1 );
+}
+
+
+%text-gradient {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}

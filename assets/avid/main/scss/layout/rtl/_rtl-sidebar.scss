@@ -1,0 +1,58 @@
+// html[dir="rtl"] {
+
+    //sidebar styles
+    [direction="rtl"] {
+        .nk-sidebar {
+            text-align: right;
+
+            .metismenu {
+                ul {
+                    a {
+                        padding: 10px 52px 10px 15px;
+
+                        @at-root [data-sidebar-style="compact"]#{&} {
+                            padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+                        }
+                    }
+                }
+
+                &>li {
+
+                    a {
+                        &>i {
+                            margin-left: 0.9375rem;
+                            margin-right: auto;
+                        }
+                    }
+
+                }
+
+                li {
+
+                    .active {
+
+                        &>.has-arrow {
+                            &:after {
+                                transform: rotate(45deg) translateY(-50%);
+                            }
+                        }
+    
+                    }
+                }
+
+                .has-arrow {
+                    &:after {
+                        left: 1.5rem;
+                        right: auto;
+                    }
+                }
+
+                .nav-badge {
+                    left: 4.5rem;
+                    right: auto;
+                }
+            }
+        }
+    }
+
+// }

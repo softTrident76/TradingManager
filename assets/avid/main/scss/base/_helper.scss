@@ -1,0 +1,94 @@
+.ml-minus-29{
+    margin-left: -1.8125rem;
+}
+
+.mr-minus-29{
+    margin-right: -1.8125rem;
+}
+
+.mw-280{
+    max-width: 17.5rem;
+}
+
+.mw-460{
+    max-width: 28.75rem;
+}
+
+.mw-570{
+    max-width: 35.625rem;
+}
+
+.mw-600{
+    max-width: 37.5rem;
+}
+
+
+.width-xl-75{
+
+    @include media-breakpoint-up(xl) {
+        width: 75%;
+    }
+}
+
+.fw-500{
+    font-weight: 600 !important;
+}
+
+.fw-600{
+    font-weight: 600 !important;
+}
+
+.mixed-text-link{
+    font-style: italic;
+    border-bottom: 1px solid #BCBCBC;
+}
+
+.px-4half{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.py-4half{
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+// custom circle rule
+.circle-40{
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #fff;
+
+    i,span{
+        font-size: 14px;
+        line-height: 40px;
+    }
+}
+
+.circle-60{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #fff;
+
+    i,span{
+        font-size: 24px;
+        line-height: 60px;
+    }
+}
+
+.border1px-white{
+    border: 1px solid #fff !important;
+}
+
+.hr-white{
+    border-top: 1px solid #fff;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

@@ -1,0 +1,27 @@
+
+
+
+.footer {
+    padding-left: 15rem;
+    background-color: transparent;
+    
+    .copyright {
+        padding: 0.9375rem;
+        // background: lighten($l-bg, 5%);
+        p {
+            text-align: center;
+            margin: 0;
+            color: $white;
+        }
+
+        a{
+            color: $white;
+        }
+    }
+}
+
+.menu-toggle{
+    .footer {
+        padding-left: 3.75rem;
+    }    
+}

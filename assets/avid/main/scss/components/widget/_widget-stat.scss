@@ -1,0 +1,114 @@
+.stat-widget-one{
+    border-color: transparent;
+    h3,h4{
+        color: $white;
+    }
+    i.cc{
+        opacity: 0.2;
+        font-size: 42px;
+        line-height: 0;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+
+    // .badge{
+    //     background: $white;
+    //     padding: 5px 7px;
+    //     // font-size: 0.875rem;
+    //     // font-weight: normal;
+    //     border-radius: 50px;
+    //     margin-right: 5px;
+    // }
+    // &.bg-btc{
+    //     background: #F7931A;
+    //     color: $white;
+    //     .progress-bar{
+    //         background: #F7931A;
+    //         opacity: 0.5;
+    //     }
+    // }
+    // &.bg-eth{
+    //     background: #345281;
+    //     color: $white;
+    //     .progress-bar{
+    //         background: #345281;
+    //         opacity: 0.75;
+    //     }
+    // }
+    // &.bg-xrp{
+    //     background: #346AA9;
+    //     color: $white;
+    //     .progress-bar{
+    //         background: #346AA9;
+    //         opacity: 0.75;
+    //     }
+        
+    // }
+    // &.bg-dash{
+    //     background: #1c75bc;
+    //     color: $white;
+    //     .progress-bar{
+    //         background: #1c75bc;
+    //         opacity: 0.75;
+    //     }
+        
+    // }
+}
+
+
+.stat-widget-two{
+    border-color: transparent;
+    overflow: hidden;
+    h4,h2{
+        color: $white;
+    }
+    i.cc{
+        font-size: 175px;
+        line-height: 0;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    .media-body{
+        z-index: 999999999;
+    }
+    .badge{
+        background: $white;
+        padding: 5px 7px;
+        // font-size: 0.875rem;
+        // font-weight: normal;
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+    .sparkline-coin{
+        z-index: 999;
+    }
+    &.bg-btc{
+        // background: #F7931A;
+        i.cc{
+            opacity: 0.05!important;
+        }
+    }
+    &.bg-eth{
+        // background: #345281;
+        i.cc{
+            opacity: 0.05!important;
+        }
+    }
+    &.bg-xrp{
+        // background: #346AA9;
+        i.cc{
+            opacity: 0.05!important;
+        }
+        
+    }
+    &.bg-dash{
+        // background: #1c75bc;
+        i.cc{
+            opacity: 0.05!important;
+        }
+    }
+}
+
+

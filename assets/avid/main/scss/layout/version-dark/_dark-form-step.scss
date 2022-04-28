@@ -1,0 +1,38 @@
+[data-theme-version="dark"] {
+    .wizard .content > .body {
+        background-color: $dark-card;
+    }
+
+    // .wizard .steps li:not(.current) a, .step-form-vertical .wizard.vertical > .steps li:not(.current) a {
+    //     background-color: $d-bg;
+    // }
+
+    .wizard > .content > .body input {
+        border-color: $d-border;
+    }
+
+    .step-form-horizontal .wizard .steps li a .number {
+        background-color: $dark-card;
+        border-color: $primary;
+    }
+
+    .step-form-horizontal .wizard .steps li.current a .number {
+        background-color: $dark-card;
+    }
+
+    .step-form-horizontal .wizard .steps li:not(:last-child).current ~ li::after, 
+    .step-form-horizontal .wizard .steps li:not(:last-child).current::after, 
+    .step-form-horizontal .wizard .steps li.current a, 
+    .step-form-horizontal .wizard .steps li.disabled a, 
+    .step-form-horizontal .wizard .steps li.current a:hover, 
+    .step-form-horizontal .wizard .steps li.disabled a:hover {
+        background-color: $d-bg;
+    }
+
+    .step-form-horizontal .wizard .steps li.current a, 
+    .step-form-horizontal .wizard .steps li.disabled a, 
+    .step-form-horizontal .wizard .steps li.current a:hover, 
+    .step-form-horizontal .wizard .steps li.disabled a:hover  {
+        color: $d-ctl;
+    }
+}

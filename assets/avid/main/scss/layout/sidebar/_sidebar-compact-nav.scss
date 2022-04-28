@@ -1,0 +1,50 @@
+////////////////
+// Compact Nav
+////////////////
+
+@media (min-width:767px) {
+    [data-sidebar-style="compact"] {
+
+        .nk-sidebar {
+            width: 9.375rem;
+        }
+        .metismenu {
+            li {
+                text-align: center;
+                a {
+                    padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+                }
+            }
+        }
+        .nav-text {
+            display: block;
+            margin-top: 0.3125rem;
+        }
+        .nav-badge {
+            display: none;
+        }
+        .footer {
+            padding-left: 9.375rem;
+        }
+        .content-body {
+            margin-left: 9.375rem;
+        }
+    }
+}
+
+[data-layout="vertical"][data-sidebar-style="compact"] {
+    .nk-sidebar {
+        .metismenu {
+            ul ul a {
+                padding: 0.625rem 0.9375rem;
+            }
+
+            &>li {
+                &>a.has-arrow::after {
+                    top: 35%;
+                }
+            }
+        }
+
+    }
+}

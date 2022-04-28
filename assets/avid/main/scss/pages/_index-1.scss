@@ -1,0 +1,98 @@
+
+.currencies{
+
+    i{
+        font-size: 22px;
+        margin-right: 10px;
+        margin-top: 7px;
+        color: $white;
+    }
+}
+
+
+
+#balance_graph{
+    height: 260px;
+}
+
+.copy-wallet{
+    .input-group-text{
+        // min-width: 50px;
+        display: flex;
+        justify-content: center;
+        i{
+            color: $white;
+            font-size: 22px;
+        }
+        &.input-text-btc{
+            background: #F7931A;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-eth{
+            background: #345281;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-xrp{
+            background: #346AA9;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-dash{
+            background: #1C75BC;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-neo{
+            background: #58BF00;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-bts{
+            background: #03A9E0;
+            i{
+                color: $white;
+            }
+        }
+        &.input-text-mona{
+            background: #a99364;
+            i{
+                color: $white;
+            }
+        }
+    }
+    .btn{
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        width: 50px;
+        box-shadow: none;
+        background: lighten($primary, 0%);
+        color: $white;
+        font-size: 16px;
+        border-color: transparent;
+
+        @at-root [data-theme-version="dark"] & {
+            background: $dark-card;
+            border-color: $d-border;
+        }
+    }
+}
+
+
+
+
+
+.live-price{
+    .list-group-item{
+        padding-left: 0px;
+        padding-right: 0px;
+        background: transparent;
+        border-color: $border;
+    }
+}

@@ -1,0 +1,36 @@
+[data-theme-version="dark"] {
+    .tdl-holder {
+        input[type="text"] {
+            background-color: $d-bg;
+            color: $white;
+
+            &::placeholder {
+                color: $d-ctl;
+            }
+        }
+
+        input[type="checkbox"] + i {
+            background-color: $d-bg;
+            border-color: $d-border;
+        }
+
+        li {
+            background-color: $dark-card;
+            border-color: $d-border;
+    
+            span {
+                color: $d-ctl;
+            }
+    
+            label {    
+                a {
+                    color: $d-ctl;
+                }  
+                
+                &:hover {
+                    background-color: $d-bg;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+//style for all basic tables
+.table {
+    thead th {
+        border-bottom-width: 1px;
+        text-transform: uppercase;
+        color: #646c9a ;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        border-color: $border;
+    }
+    tbody  tr td {
+        // color: $l-ctd;
+        // line-height: 2.5rem;
+        vertical-align: middle;
+        border-color: $border;
+    }
+
+    //delete header borders without '.borders tables'
+    &:not(.table-bordered) {
+        thead th {
+            border-top: none;
+        }
+    }
+
+    //delete all borders without '.borders tables'
+    &:not(.table-bordered) {
+        tbody td, tbody th {
+            // border: none;
+        }
+    }
+
+    //heading background
+    .thead-primary th {
+        background-color: $primary;
+        color: $white;
+    }
+
+    //table border
+    &.primary-table-bordered {
+        border: 1px solid $primary;
+    }
+
+    //table hover
+    &.primary-table-bg-hover {
+        thead th {
+            background-color: darken($color: $primary, $amount: 5%);
+            color: $white;
+            border-bottom: none;
+        }
+
+        tbody tr {
+            background-color: $primary;
+            color: $white;
+            transition: all .1s ease;
+
+            &:hover {
+                background-color: lighten($color: $primary, $amount: 5%);
+            }
+
+            &:not(:last-child) {
+                td, th {
+                    border-bottom: 1px solid darken($color: $primary, $amount: 5%);
+                }
+            }
+        }
+    }
+
+    //responsive table width
+    &-responsive {
+        &-tiny {
+            // @include media-breakpoint-down(xs) {
+                min-width: 18.75rem;
+            // }
+        }
+
+        &-sm {
+            // @include media-breakpoint-down(sm) {
+                min-width: 30rem !important;
+            // }
+        }
+
+        &-md {
+            // @include media-breakpoint-down(sm) {
+                min-width: 50.9375rem !important;
+            // }
+        }
+
+        &-lg {
+            min-width: 60.9375rem !important;
+        }
+
+        &-xl {
+            min-width: 70.9375rem !important;
+        }
+    }
+}
+
+

@@ -1,0 +1,21 @@
+
+#register-page1{
+    body{ 
+        background: url(../../assets/images/background/register-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        position: relative;
+        // &::after{
+        //     position: absolute;
+        //     content: '';
+        //     left: 0;
+        //     right: 0;
+        //     top: 0;
+        //     bottom: 0;
+        //     background: rgba(34,144,255,0.5);
+        //     z-index: -1;
+        // }
+    }
+}

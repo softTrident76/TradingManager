@@ -1,0 +1,34 @@
+[data-theme-version="dark"] {
+    .multi-steps {
+        &> li{
+            // color: #75B432;
+
+            &::before {
+                background-color: $d-bg;
+            }
+
+            &.is-active {
+                &::before {
+                    background-color: $d-bg;
+                }
+
+                &::after {
+                    background-color: $d-border;
+                }
+
+                ~ li {
+                    color: $d-ctd;
+    
+                    &::before {
+                        background-color: $d-bg;
+                        border-color: $d-border;
+                    }
+
+                    &::after {
+                        background-color: $d-border;
+                    }
+                }
+            }
+        }
+    }
+}

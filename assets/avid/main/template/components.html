@@ -1,0 +1,1406 @@
+<!--
+ // **************************************************
+ // ******* Name: arvid
+ // ******* Description: Bootstrap 4 Admin Dashboard
+ // ******* Version: 1.0.0
+ // ******* Released on 2019-02-13 00:31:50
+ // ******* Support Email : quixlab.com@gmail.com
+ // ******* Support Skype : sporsho9
+ // ******* Author: Quixlab
+ // ******* URL: https://quixlab.com
+ // ******* Themeforest Profile : https://themeforest.net/user/quixlab
+ // ******* License: ISC
+ // ***************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Arvid - Bootstrap Cryptocurrency Admin Dashboard HTML Template</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <!-- Sweetalert -->
+    <link href="../../assets/plugins/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- Nestable -->
+    <link href="../../assets/plugins/nestable2/css/jquery.nestable.min.css" rel="stylesheet">
+    <!-- Pignose Calender -->
+    <link href="../../assets/plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Vectormap -->
+    <link href="../../assets/plugins/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+    <!-- NoUI Slider -->
+    <link rel="stylesheet" href="../../assets/plugins/nouislider/nouislider.min.css">
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" href="./../../assets/plugins/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <!-- Global Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader"><div class="spinner"><div class="spinner-a"></div><div class="spinner-b"></div></div></div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper" class="page-components">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr">A </b>
+                    <span class="brand-title">Arvid</span>
+                </a>
+            </div>
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="toggle-icon"><i class="icon-menu"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="header-left">
+                    <div class="header-search icons">
+                        <span class="header-magnifier"><i class="icon-magnifier"></i> </span>
+                        <form class="drop-down">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Here">
+                                <div class="input-group-append">
+                                    <span class="input-group-text pl-3 pr-3">Search</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-right">
+
+                    <ul class="clearfix">
+                        <li class="icons">
+                            <a href="javascript:void(0)" class="">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-primary">3</span>
+                            </a>
+                            <div class="drop-down animated flipInX dropdown-notfication">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-envelope"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">New message received</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-user"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">New account opened</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-like"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">Liked our post</h5>
+                                                    <span class="notification-text">One hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-calender"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">Event Started</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a class="d-flex justify-content-between bg-primary px-4 text-white" href="javascript:void()">
+                                        <span>All Notifications</span>
+                                        <span><i class="mdi mdi-file-document-box"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <div class="user-img c-pointer">
+                                <img src="../../assets/images/users/1.jpg" height="40" width="40" alt="avatar">
+                                <strong class="ml-2">John Doe <span><i class="fa fa-caret-down ml-2"></i></span></strong>
+
+                            </div>
+                            <div class="drop-down dropdown-profile animated flipInX">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="app-profile.html">Profile</a>
+                                        </li>
+                                        <li><a href="app-calender.html">Calender</a>
+                                        </li>
+                                        <li><a href="email-inbox.html">Inbox <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
+                                        </li>
+                                        <li><a href="page-user-lock.html">Lock Screen</a>
+                                        </li>
+                                        <li><a href="page-login.html">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Navigation</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="mdi mdi-speedometer"></i><span class="nav-text">Home</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Home One</a></li>
+                            <li><a href="./index-2.html">Home Two</a></li>
+                            <li><a href="./ico-marketcap.html">Marketcap</a></li>
+                            <li><a href="./ico-buy-sell.html">Buy and Sell</a></li>
+                            <li><a href="./ico-wallet.html">Wallet</a></li>
+                            <li><a href="./ico-exchange.html">Exchange</a></li>
+                            <li><a href="./ico-transaction.html">Transaction</a></li>
+                            <li><a href="./ico-gateway.html">Gateway</a></li>
+                            <li><a href="./ico-trading.html">Trading</a></li>
+                            <li><a href="./ico-ticker.html">Ticker</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-layers"></i><span class="nav-text">Options</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./layout-blank.html">Blank</a></li>
+                            <li><a href="./layout-one-column.html">One Column</a></li>
+                            <li><a href="./layout-two-column.html">Two column</a></li>
+                            <li><a href="./layout-fixed-header.html">Fixed Header</a></li>
+                            <li><a href="./layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                            <li><a href="./layout-horizontal-nav.html">Horizontal</a></li>
+                            <li><a href="./layout-rtl.html">RTL</a></li>
+                            <li><a href="./layout-boxed.html">Boxed</a></li>
+                            <li><a href="./layout-wide-boxed.html">Wide Boxed</a></li>
+                            <li><a href="./layout-wide.html">Wide</a></li>
+                            <li><a href="./layout-dark.html">Dark</a></li>
+                            <li><a href="./layout-light.html">Light</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="nav-text">Apps</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./email-inbox.html">Mailbox</a></li>
+                            <li><a href="./app-profile.html">Profile</a></li>
+                            <li><a href="./app-calender.html">Calendar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./charts.html" aria-expanded="false"><i class="mdi mdi-chart-areaspline"></i> <span class="nav-text">Graphs</span></a></li>
+                    
+                    <li><a href="./ui-bootstrap.html" aria-expanded="false"><i class="mdi mdi-bootstrap"></i><span class="nav-text">Bootstrap</span></a></li>
+                    <li><a href="./components.html" aria-expanded="false"><i class="mdi mdi-power-plug"></i><span class="nav-text">Advanced</span></a></li>
+                    <li><a href="widget-basic.html" aria-expanded="false"><i class="mdi mdi-widgets"></i><span class="nav-text">Widget</span></a></li>
+                    
+                    <li><a href="./forms.html" aria-expanded="false"><i class="mdi mdi-file-document-box"></i><span class="nav-text">Forms</span></a></li>
+                    
+                    <li><a href="./tables.html" aria-expanded="false"><i class="mdi mdi-table"></i><span class="nav-text">Table</span></a></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-earth"></i><span class="nav-text">Pages</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./page-login.html">Login</a></li>
+                            <li><a href="./page-register.html">Register</a></li>
+                            <li><a href="./page-user-lock.html">Lock Screen</a></li>
+                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Erorr</a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="./page-error-400.html">Erorr 400</a></li>
+                                    <li><a href="./page-error-403.html">Erorr 403</a></li>
+                                    <li><a href="./page-error-404.html">Erorr 404</a></li>
+                                    <li><a href="./page-error-500.html">Erorr 500</a></li>
+                                    <li><a href="./page-error-503.html">Erorr 503</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col-sm-6 p-md-0">
+                    <div class="breadcrumb-range-picker">
+                        <span><i class="icon-calender"></i></span>
+                        <span class="ml-1">August 08, 2017 - August 08, 2017</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Components</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading mt-2">Counter Up</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row counter-wrapper">
+                                    <div class="col-sm-3 col-6">
+                                        <div class="card-body text-center">
+                                            <h4 class="counter">147</h4>
+                                            <span>Orders</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-6">
+                                        <div class="card-body text-center">
+                                            <h4 class="counter">83</h4>
+                                            <span>Delivered</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-6">
+                                        <div class="card-body text-center">
+                                            <h4 class="counter">64</h4>
+                                            <span>Pending</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-6">
+                                        <div class="card-body text-center">
+                                            <h4 class="counter">12345</h4>
+                                            <span>Earned</span>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Toastr -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Toastr</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card transparent-card">
+                            <div class="card-body pl-0">
+                                <button type="button" class="btn btn-dark mb-2 " id="toastr-success-top-right">Top Right</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-bottom-right">Bottom Right</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-bottom-left">Bottom Left</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-top-left">Top Left</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-top-full-width">Top Full Width</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-bottom-full-width">Bottom Full Width</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-top-center">Top Center</button>
+                                <button type="button" class="btn btn-dark mb-2  ml-2" id="toastr-success-bottom-center">Bottom Center</button>
+                                <!-- <button type="button" class="btn btn-success mb-2  ml-2" id="toastr-success-top-right">Success</button> -->
+                                <button type="button" class="btn btn-info mb-2  ml-2" id="toastr-info-top-right">Info</button>
+                                <button type="button" class="btn btn-warning mb-2  ml-2" id="toastr-warning-top-right">Warning</button>
+                                <button type="button" class="btn btn-danger mb-2  ml-2" id="toastr-danger-top-right">Error</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bootstrap Notify -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="content-heading">Bootstrap Notify</h3>
+                            </div>
+                        </div>
+                        <div class="card transparent-card">
+                            <div class="card-body pl-0">
+                                <div class="d-flex flex-wrap">
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-left-top">From left-top</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-right-top">From right-top</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-right-bottom">From right-bottom</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-left-bottom">From left-bottom</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-center-top">From center-top</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-dark success-alert-center-bottom">From center-bottom</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-primary primary-alert-center-top">Primary</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-warning warning-alert-left-top">Warning</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-danger danger-alert-right-bottom">Danger</button>
+                                    </div>
+                                    <div class="mr-2 mb-2 ">
+                                        <button class="btn btn-success success-alert-center-bottom">Success</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sweet alert -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="content-heading">Sweet Alert</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                
+                            <div class="card transparent-card">
+                                    <div class="card-body d-flex flex-wrap pl-0">
+                                        <!-- <div class="row"> -->
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-wrong">Sweet Wrong</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-message">Sweet Message</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-text">Sweet Text</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-success">Sweet Success</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-confirm">Sweet Confirm</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-success-cancel">Sweet Confirm Or Cancel</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-image-message">Sweet Image Message</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-html">Sweet HTML</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-auto">Sweet Auto Close</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-prompt">Sweet Prompt</button>
+                                                </div>
+                                                <div class="sweetalert mx-2 mb-2 ">
+                                                    <button class="btn btn-dark sweet-ajax">Sweet Ajax</button>
+                                                </div>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ClipboardJS -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="col-12">
+                            <h3 class="content-heading">ClipboardJS</h3>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="input-group mb-3 mb-md-0">
+                                            <input id="input1" type="text" value="https://themeforest.net/user/quixlab" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button data-clipboard-target="#input1" class="btn btn-primary btn-flat clipboard-btn" title="Copy to clipboard" type="button" id="button-addon1"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="input-group mb-3 mb-md-0">
+                                            <input id="input2" type="text" value="https://themeforest.net/user/quixlab" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                            <div class="input-group-append">
+                                                <button data-clipboard-action="cut" data-clipboard-target="#input2" class="btn btn-primary btn-flat clipboard-btn" title="Copy to clipboard" type="button" id="button-addon2"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <button data-clipboard-text="https://themeforest.net/user/quixlab" class="btn btn-block btn-primary clipboard-btn" title="Copy to clipboard" type="button" id="button-addon3"><i class="fa fa-clipboard" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nestable -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Nestable</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card-content">
+                                            <div class="nestable">
+                                                <div class="dd" id="nestable">
+                                                    <ol class="dd-list">
+                                                        <li class="dd-item" data-id="1">
+                                                            <div class="dd-handle">Item 1</div>
+                                                        </li>
+                                                        <li class="dd-item" data-id="2">
+                                                            <div class="dd-handle">Item 2</div>
+                                                            <ol class="dd-list">
+                                                                <li class="dd-item" data-id="3">
+                                                                    <div class="dd-handle">Item 3</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="4">
+                                                                    <div class="dd-handle">Item 4</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="5">
+                                                                    <div class="dd-handle">Item 5</div>
+                                                                    <ol class="dd-list">
+                                                                        <li class="dd-item" data-id="6">
+                                                                            <div class="dd-handle">Item 6</div>
+                                                                        </li>
+                                                                        <li class="dd-item" data-id="7">
+                                                                            <div class="dd-handle">Item 7</div>
+                                                                        </li>
+                                                                        <li class="dd-item" data-id="8">
+                                                                            <div class="dd-handle">Item 8</div>
+                                                                        </li>
+                                                                    </ol>
+                                                                </li>
+                                                                <li class="dd-item" data-id="9">
+                                                                    <div class="dd-handle">Item 9</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="10">
+                                                                    <div class="dd-handle">Item 10</div>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-content">
+                                            <div class="nestable">
+                                                <div class="dd" id="nestable2">
+                                                    <ol class="dd-list">
+                                                        <li class="dd-item" data-id="13">
+                                                            <div class="dd-handle">Item 13</div>
+                                                        </li>
+                                                        <li class="dd-item" data-id="13">
+                                                            <div class="dd-handle">Item 13</div>
+                                                        </li>
+                                                        <li class="dd-item" data-id="14">
+                                                            <div class="dd-handle">Item 14</div>
+                                                        </li>
+                                                        <li class="dd-item" data-id="15">
+                                                            <div class="dd-handle">Item 15</div>
+                                                            <ol class="dd-list">
+                                                                <li class="dd-item" data-id="16">
+                                                                    <div class="dd-handle">Item 16</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="17">
+                                                                    <div class="dd-handle">Item 17</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="18">
+                                                                    <div class="dd-handle">Item 18</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="18">
+                                                                    <div class="dd-handle">Item 19</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="18">
+                                                                    <div class="dd-handle">Item 20</div>
+                                                                </li>
+                                                                <li class="dd-item" data-id="18">
+                                                                    <div class="dd-handle">Item 21</div>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bootstrap select -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Bootstrap Select</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body d-flex flex-wrap">
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <option>Standard Select</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <optgroup label="Picnic">
+                                            <option>Optgroups</option>
+                                            <option>Mustard</option>
+                                            <option>Ketchup</option>
+                                            <option>Relish</option>
+                                        </optgroup>
+                                        <optgroup label="Camping">
+                                            <option>Tent</option>
+                                            <option>Flashlight</option>
+                                            <option>Toilet Paper</option>
+                                        </optgroup>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" multiple>
+                                        <option>Multiple Select</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker"  data-live-search="true">
+                                        <option>Live Search</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-live-search="true">
+                                        <option data-tokens="ketchup mustard">Live Search Keywords</option>
+                                        <option data-tokens="ketchup mustard">Hot Dog, Fries and a Soda</option>
+                                        <option data-tokens="mustard">Burger, Shake and a Smile</option>
+                                        <option data-tokens="frosting">Sugar, Spice and all things nice</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" multiple data-max-options="2" title="Multiselect Limit">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" title="Optgroup Limit" multiple>
+                                        <optgroup label="Condiments" data-max-options="2">
+                                            <option>Mustard</option>
+                                            <option>Ketchup</option>
+                                            <option>Relish</option>
+                                        </optgroup>
+                                        <optgroup label="Breads" data-max-options="2">
+                                            <option>Plain</option>
+                                            <option>Steamed</option>
+                                            <option>Toasted</option>
+                                        </optgroup>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" title="Placeholder">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" title="Selected Text" multiple data-selected-text-format="count">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" title="Selected Text" multiple data-selected-text-format="count > 3">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-style="btn-primary">
+                                        <option>Primary Style</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-style="btn-success">
+                                        <option>Success Style</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-style="btn-warning">
+                                        <option>Warning Style</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-style="btn-danger">
+                                        <option>Danger Style</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <!-- <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker show-tick">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div> -->
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker show-menu-arrow">
+                                        <option>Menu Arrow</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <option>Individual Style</option>
+                                        <option>Mustard</option>
+                                        <option class="bg-success">Ketchup</option>
+                                        <option class="bg-danger">Relish</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <option data-icon="fa fa-heart">Icon</option>
+                                        <option data-icon="fa fa-heart">Ketchup</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 mr-3">
+                                    <select class="selectpicker">
+                                        <option data-content="<span class='badge badge-success'>Badge</span>">Badge</option>
+                                        <option data-content="<span class='badge badge-success'>Relish</span>">Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-size="5">
+                                        <option data-subtext="Heinz">Subtext</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-size="auto">
+                                        <option data-subtext="Heinz">Menu Size Auto</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-size="5">
+                                        <option data-subtext="Heinz">Menu Size Number</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                        <option data-subtext="Heinz">Ketchup</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" multiple title="Select All" data-actions-box="true">
+                                        <option>Select All</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <option>Divider</option>
+                                        <option>Mustard</option>
+                                        <option>Mustard</option>
+                                        <option data-divider="true">Ketchup</option>
+                                        <option>Relish</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-header="Select a condiment">
+                                        <option>Menu Header</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker dropup">
+                                        <option>Dropup</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" disabled>
+                                        <option>Disabled</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker">
+                                        <option>Disabled Options</option>
+                                        <option>Mustard</option>
+                                        <option disabled>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker test">
+                                        <optgroup label="Picnic" disabled>
+                                            <option>Disabled Groups</option>
+                                            <option>Mustard</option>
+                                            <option>Ketchup</option>
+                                            <option>Relish</option>
+                                        </optgroup>
+                                        <optgroup label="Camping">
+                                            <option>Tent</option>
+                                            <option>Flashlight</option>
+                                            <option>Toilet Paper</option>
+                                        </optgroup>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-width="auto">
+                                        <option>Auto Width</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-width="100px">
+                                        <option>Fixed Width</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select> 
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-width="fit">
+                                        <option>Fit Width</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>All of the above (and much, much more!)</option>
+                                    </select>
+                                </div>
+                                <div class="mr-3 mb-3 ">
+                                    <select class="selectpicker" data-width="100%">
+                                        <option>Width 100%</option>
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BlockUI -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">BlockUI</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card transparent-card">
+                            <div class="card-body d-flex flex-wrap pl-0">
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_1">Basic Message</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_2">Popup Form</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_3">IPhoto</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_4">Blue Overlay</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_5">Tall Content</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_6">Image Box</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_7">Non Centered</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_8">Without Message</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_9">Click Overlay</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_10">Auto Unblock</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_11">Growl</button>
+                                </div>
+                                <div class="mr-3 mb-2 ">
+                                    <button class="btn btn-dark" id="demo_12">Growl</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card block-element-1">
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title mb-4">This element will be blocked</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam fugiat exercitationem recusandae iste cumque. Amet, quasi dignissimos suscipit nulla veniam minima odio molestias, excepturi magni soluta assumenda optio eligendi quae debitis, fugit voluptate quas adipisci architecto ipsum sapiente perspiciatis ad! Ipsa, totam molestias. A tempore deserunt commodi libero cumque.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eos quod officiis dolore? Dolores eveniet, laboriosam corporis impedit facere, culpa aspernatur odio sequi sed ea obcaecati. Facere nostrum rem esse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group mb-3 ">
+                            <button class="btn btn-primary" id="block-element1">Block element</button>
+                            <button class="btn btn-primary ml-3" id="unblock-element1">Unblock</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card block-element-2">
+                            <div class="card-body">
+                                <div>
+                                    <h4 class="card-title mb-4">This element will be blocked with a message</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nam fugiat exercitationem recusandae iste cumque. Amet, quasi dignissimos suscipit nulla veniam minima odio molestias, excepturi magni soluta assumenda optio eligendi quae debitis, fugit voluptate quas adipisci architecto ipsum sapiente perspiciatis ad! Ipsa, totam molestias. A tempore deserunt commodi libero cumque.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, velit labore cupiditate et expedita neque amet odit suscipit, illo aut eos animi deserunt natus quibusdam distinctio soluta, beatae ad. Natus.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group mb-3 ">
+                            <button class="btn btn-primary" id="block-element2">Block element with message</button>
+                            <button class="btn btn-primary ml-3" id="unblock-element2">Unblock</button>
+                        </div>
+                    </div>
+
+                    <!-- Accesorry things need with blockUI -->
+                    <!-- For Growl -->
+                    <div class="growlUI" style="display:none">
+                        <h1>Growl Notification</h1>
+                        <h2>Have a nice day!</h2>
+                    </div>            
+                    <!-- Image Display -->
+                    <img id="displayBox" src="../../assets/images/body/11.jpg" alt="#" width="400" height="400" style="display:none" />
+                    <!-- Tall Content -->
+                    <div class="p-5" id="tallContent" style="display:none">
+                        <h1>Why</h1>
+                        <h1>am</h1>
+                        <h1>I</h1>
+                        <h1>so</h1>
+                        <h1>darn</h1>
+                        <h1>tall?</h1>
+                    </div>            
+                    <!-- Login Form -->
+                    <div class="p-5" id="loginForm" style="display:none">
+                        <p><label>Username:</label><input class="form-control" type="text" name="demo1" /></p>
+                        <p><label>Password:</label><input class="form-control" type="text" name="demo2" /></p>
+                        <input class="btn btn-primary" type="submit" value="Login">
+                    </div>            
+                </div>
+                <div class="row">
+                    <!-- Pignose calender -->
+                    <div class="col-xl-4 col-xxl-12">
+                        <h3 class="content-heading">Calender</h3>
+                        <div class="card">
+                            <div class="card-body p-0">
+                                <div class="year-calendar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Datamap -->
+                    <div class="col-xl-8 col-xxl-12">
+                        <h3 class="content-heading">Datamap</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="world-datamap"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vectormap -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Vectormap</h3>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="mb-3">World Map</h5>
+                                        <div id="world-map"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="mb-3">USA</h5>
+                                        <div id="usa" style="height: 450px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- NOUI Slider -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content-heading">NOUiSlider</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Search by Price</h4>
+                                    <div id="basic-slider"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Slider behaviour (Snap)</h4>
+                                    <div class="snap">
+                                        <div id="snap"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Slider behaviour (hover)</h4>
+                                    <div class="snap">
+                                        <div id="hover"></div>
+                                        <span class="example-val mt-3 d-inline-block" id="hover-val"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Stepping and snapping to values</h4>
+                                    <div class="stepping-slider">
+                                        <div id="slider-step"></div>
+                                        <span class="example-val mt-3 d-inline-block" id="slider-step-value"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Slider Drag</h4>
+                                    <div class="slider-behaviour">
+                                        <div id="drag-fixed"></div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Number formatting</h4>
+                                    <div class="format-slider">
+                                        <div id="slider-format"></div>
+                                        <input class="mt-3 form-control border-0 bg-transparent" readonly title="Formatted number" id="input-format">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Search by Dates</h4>
+                                    <div class="date-slider">
+                                        <div id="slider-date"></div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="example-val" id="event-start"></div>
+                                            <div class="example-val" id="event-end"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-4 col-lg-4 col-sm-6">
+                            <div class="card transparent-card">
+                                <div class="card-body pt-0">
+                                    <div class="slider-tooltip py-5">
+                                        <div id="slider-tooltips"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed & Developed by <a href="https://themeforest.net/user/quixlab" target="_blank">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        
+        <!--**********************************
+            Right sidebar start
+        ***********************************-->
+        <div class="sidebar-right">
+            <a class="sidebar-right-trigger gradient-5-x" href="javascript:void(0)">
+                <span><i class="fa fa-cog fa-spin"></i></span>
+            </a>
+            <div class="sidebar-right-inner">
+                <div class="admin-settings">
+                    <h4>Pick your style</h4>
+                    <div>
+                        <p>Background</p>
+                        <select class="form-control" name="theme_version" id="theme_version">
+                            <option value="light">Light</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Layout</p>
+                        <select class="form-control" name="theme_layout" id="theme_layout">
+                            <option value="vertical">Vertical</option>
+                            <option value="horizontal">Horizontal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Sidebar</p>
+                        <select class="form-control" name="sidebar_style" id="sidebar_style">
+                            <option value="full">Full</option>
+                            <option value="mini">Mini</option>
+                            <option value="compact">Compact</option>
+                            <option value="overlay">Overlay</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Sidebar position</p>
+                        <select class="form-control" name="sidebar_position" id="sidebar_position">
+                            <option value="static">Static</option>
+                            <option value="fixed">Fixed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Header position</p>
+                        <select class="form-control" name="header_position" id="header_position">
+                            <option value="static">Static</option>
+                            <option value="fixed">Fixed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Container</p>
+                        <select class="form-control" name="container_layout" id="container_layout">
+                            <option value="wide">Wide</option>
+                            <option value="boxed">Boxed</option>
+                            <option value="wide-boxed">Wide Boxed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Direction</p>
+                        <select class="form-control" name="theme_direction" id="theme_direction">
+                            <option value="ltr">LTR</option>
+                            <option value="rtl">RTL</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Navigation Header</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_1" class="filled-in chk-col-primary" id="nav_header_bg_1">
+                                <label for="nav_header_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_2" class="filled-in chk-col-primary" id="nav_header_bg_2">
+                                <label for="nav_header_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_3" class="filled-in chk-col-primary" id="nav_header_bg_3">
+                                <label for="nav_header_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_4" class="filled-in chk-col-primary" id="nav_header_bg_4">
+                                <label for="nav_header_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_5" class="filled-in chk-col-primary" id="nav_header_bg_5">
+                                <label for="nav_header_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_6" class="filled-in chk-col-primary" id="nav_header_bg_6">
+                                <label for="nav_header_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_7" class="filled-in chk-col-primary" id="nav_header_bg_7">
+                                <label for="nav_header_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_8" class="filled-in chk-col-primary" id="nav_header_bg_8">
+                                <label for="nav_header_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_9" class="filled-in chk-col-primary" id="nav_header_bg_9">
+                                <label for="nav_header_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_10" class="filled-in chk-col-primary" id="nav_header_bg_10">
+                                <label for="nav_header_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Header</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_1" class="filled-in chk-col-primary" id="header_bg_1">
+                                <label for="header_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_2" class="filled-in chk-col-primary" id="header_bg_2">
+                                <label for="header_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_3" class="filled-in chk-col-primary" id="header_bg_3">
+                                <label for="header_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_4" class="filled-in chk-col-primary" id="header_bg_4">
+                                <label for="header_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_5" class="filled-in chk-col-primary" id="header_bg_5">
+                                <label for="header_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_6" class="filled-in chk-col-primary" id="header_bg_6">
+                                <label for="header_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_7" class="filled-in chk-col-primary" id="header_bg_7">
+                                <label for="header_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_8" class="filled-in chk-col-primary" id="header_bg_8">
+                                <label for="header_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_9" class="filled-in chk-col-primary" id="header_bg_9">
+                                <label for="header_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_10" class="filled-in chk-col-primary" id="header_bg_10">
+                                <label for="header_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Sidebar</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_1" class="filled-in chk-col-primary" id="sidebar_bg_1">
+                                <label for="sidebar_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_2" class="filled-in chk-col-primary" id="sidebar_bg_2">
+                                <label for="sidebar_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_3" class="filled-in chk-col-primary" id="sidebar_bg_3">
+                                <label for="sidebar_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_4" class="filled-in chk-col-primary" id="sidebar_bg_4">
+                                <label for="sidebar_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_5" class="filled-in chk-col-primary" id="sidebar_bg_5">
+                                <label for="sidebar_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_6" class="filled-in chk-col-primary" id="sidebar_bg_6">
+                                <label for="sidebar_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_7" class="filled-in chk-col-primary" id="sidebar_bg_7">
+                                <label for="sidebar_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_8" class="filled-in chk-col-primary" id="sidebar_bg_8">
+                                <label for="sidebar_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_9" class="filled-in chk-col-primary" id="sidebar_bg_9">
+                                <label for="sidebar_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_10" class="filled-in chk-col-primary" id="sidebar_bg_10">
+                                <label for="sidebar_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Right sidebar end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="../../assets/plugins/common/common.min.js"></script>
+    <script src="../js/custom.min.js"></script>
+    <script src="../js/settings.js"></script>
+    <script src="../js/quixnav.js"></script>
+    <script src="../js/styleSwitcher.js"></script>
+
+
+    <!-- Bootstrap notify -->
+    <script src="../../assets/plugins/bootstrap4-notify/bootstrap-notify.min.js"></script>
+    <!-- ClipboardJS -->
+    <script src="../../assets/plugins/clipboard/clipboard.min.js"></script>
+    <!-- Sweetalert -->
+    <script src="../../assets/plugins/sweetalert2/dist/sweetalert2.min.js"></script>
+    <!-- Nestable -->
+    <script src="../../assets/plugins/nestable2/js/jquery.nestable.min.js"></script>
+    <!-- BlockUI -->
+    <script src="../../assets/plugins/block-ui/jquery.blockUI.js"></script>
+    <!-- Pignose Calender -->
+    <script src="../../assets/plugins/moment/moment.min.js"></script>
+    <script src="../../assets/plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <!-- Datamap -->
+    <script src="../../assets/plugins/d3v3/index.js"></script>
+    <script src="../../assets/plugins/topojson/topojson.min.js"></script>
+    <script src="../../assets/plugins/datamaps/datamaps.world.min.js"></script>
+    <!-- Vectormap -->
+    <script src="../../assets/plugins/jqvmap/js/jquery.vmap.min.js"></script>
+    <script src="../../assets/plugins/jqvmap/js/jquery.vmap.world.js"></script>
+    <script src="../../assets/plugins/jqvmap/js/jquery.vmap.usa.js"></script>
+    <!-- NoUI SLider -->
+    <script src="../../assets/plugins/nouislider/nouislider.min.js"></script>
+    <script src="../../assets/plugins/wnumb/wNumb.js"></script>
+    <!-- Counter Up -->
+    <script src="./../../assets/plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./../../assets/plugins/jquery.counterup/jquery.counterup.min.js"></script>
+    <!-- Bootstrap select -->
+    <script src="./../../assets/plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+
+
+
+    <!-- All init script -->
+    <script src="../js/plugins-init/components-init.js"></script>
+
+</body>
+
+</html>

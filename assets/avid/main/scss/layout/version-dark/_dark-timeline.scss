@@ -1,0 +1,7 @@
+[data-theme-version="dark"] {
+    .timeline {
+        &::before {
+            background-color: $d-bg;
+        }
+    }
+}

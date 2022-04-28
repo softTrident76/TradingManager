@@ -1,0 +1,88 @@
+/*
+
+Table of Sass Contents
+
+1. Abstracts
+    _bs-custom.scss 
+    _inheritance.scss
+    _maps.scss
+    _mixin.scss
+    _variable.scss
+
+2. bootstrap 
+    -Here goes all official bootstrap scss files
+
+3. Global/Base
+    _color.scss
+    _custom-grid.scss
+    _fonts.scss
+    _helper.scss
+    _reset.scss
+
+4. layout
+    +footer
+    +header
+    +rtl
+    +sidebar
+    +tables
+    +theme
+    +version-dark
+
+5. Conponents
+    +app
+    +charts
+    +forms
+    +map
+    +uc
+    +ui
+    +widget
+
+6. Page
+    _index-1.scss
+    _page-error.scss
+    _page-register.scss
+    _page-signin.scss
+    _page-user-lock.scss
+    _page-user-lock.scss
+
+*/
+
+
+////////////////////
+// Abstracts
+////////////////////
+@import "./abstracts/abstracts";
+
+////////////////////
+// bootstrap base scss file
+////////////////////
+@import "../../assets/plugins/bootstrap/scss/bootstrap.scss";
+
+////////////////////
+// Global/base
+////////////////////
+@import "./base/base";
+
+////////////////////
+// layout
+////////////////////
+@import "./layout/layout";
+
+////////////////////
+// Conponents
+////////////////////
+@import "./components/components";
+
+////////////////////
+// Page
+////////////////////
+@import "./pages/pages";
+
+////////////////////
+// Responsive
+////////////////////
+@import "./responsive/responsive-header";
+// @import "./responsive/responsive-calender-event";
+
+//this is for only demo purpose. for final use this should be removed
+@import "demo";

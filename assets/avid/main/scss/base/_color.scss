@@ -1,0 +1,320 @@
+
+
+/*------------------
+Color Mixins
+-------------------*/
+
+b,strong{
+    // color: #eee;
+}
+
+.color-white {
+    color: $white;
+}
+
+.body-bg{
+    background: $body-bg;
+}
+
+.text-light{
+    color: #999999 !important;
+}
+
+.text-info{
+    color: #63beff !important;
+}
+
+.text-pelorous{
+    color: $pelorous !important;
+}
+
+.text-kimberly{
+    color: $kimberly !important;
+}
+
+.text-red{
+    color: #ff0000;
+}
+
+.text-green{
+    color: #4bca06;
+}
+
+.blue-italic{
+    color: #0006fb;
+    font-style: italic;
+}
+
+.text-purple{
+    color: #7300f4;
+}
+
+.color-dark,
+.text-dark {
+    color: $dark !important;
+}
+
+.color-muted,
+.text-muted {
+    color: $muted !important;
+}
+
+.color-dpink,
+.text-dpink {
+    color: $deep-pink;
+}
+
+.color-lgreen,
+.text-lgreen {
+    color: $light-green;
+}
+
+.color-gray,
+.text-gray {
+    color: $gray;
+}
+
+// .color-pale-sky,
+// .text-pale-sky {
+//     color: $pale-sky;
+// }
+
+// .icon-razzmatazz{
+
+//     i,span{
+//         color: $razzmatazz !important;
+//     }
+// }
+
+.icon-muted{
+
+    i{
+        color: $muted !important;
+    }
+}
+
+.icon-dpink{
+
+    i{
+        color: $deep-pink !important;
+    }
+}
+
+.icon-success{
+    
+    i{
+        color: $success !important;
+    }
+}
+
+.icon-primary{
+
+    i{
+        color: $primary !important;
+    }
+}
+
+
+.icon-danger{
+
+    i{
+        color: $danger !important;
+    }
+}
+
+.icon-warning{
+
+    i{
+        color: $warning !important;
+    }
+}
+
+.bg-gallery{
+    background: $gallery !important;
+}
+
+.bg-dark {
+    background-color: $dark;
+    color: $white;
+    fill: $dark;
+}
+
+.bg-light {
+    background-color: $light;
+    color: $dark;
+    fill: $light;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-transparent {
+    background-color: transparent;
+    color: $black;
+}
+
+.bg-dpink {
+    background-color: $deep-pink !important;
+}
+
+.bg-lgreen {
+    background-color: $light-green !important;
+}
+
+.bg-inverse{
+    background: $inverse !important;
+}
+
+.bg-pink{
+    background: $pink !important;
+}
+
+/*  Background Darken
+----------------------*/
+
+.bg-primary-darken-5 {
+    background-color: darken($primary, 50%);
+}
+
+.bg-secondary-darken-5 {
+    background-color: darken($secondary, 50%);
+}
+
+.bg-success-darken-5 {
+    background-color: darken($success, 50%);
+}
+
+.bg-info-darken-5 {
+    background-color: darken($info, 50%);
+}
+
+.bg-danger-darken-5 {
+    background-color: darken($danger, 50%);
+}
+
+.bg-warning-darken-5 {
+    background-color: darken($warning, 50%);
+}
+
+
+/*  Background Lighten
+----------------------*/
+
+.bg-primary-lighten-2 {
+    background-color: lighten($primary, 30%);
+    color: $primary;
+}
+
+.bg-secondary-lighten-2 {
+    background-color: lighten($secondary, 30%);
+    color: $secondary;
+}
+
+.bg-success-lighten-2 {
+    background-color: lighten($success, 30%);
+    color: $success;
+}
+
+.bg-info-lighten-2 {
+    background-color: lighten($info, 30%);
+    color: $info;
+}
+
+.bg-danger-lighten-2 {
+    background-color: lighten($danger, 30%);
+    color: $danger;
+}
+
+.bg-warning-lighten-2 {
+    background-color: lighten($warning, 30%);
+    color: $warning;
+}
+
+
+/*  Background Transparent
+----------------------*/
+.bg-primary-rgba1 {
+    background-color: rgba($primary, 10%);
+}
+
+.bg-secondary-rgba1 {
+    background-color: rgba($secondary, 10%);
+}
+
+.bg-success-rgba1 {
+    background-color: rgba($success, 10%);
+}
+
+.bg-info-rgba1 {
+    background-color: rgba($info, 10%);
+}
+
+.bg-danger-rgba1 {
+    background-color: rgba($danger, 10%);
+}
+
+.bg-warning-rgba1 {
+    background-color: rgba($warning, 10%);
+}
+
+.bg-inverse-rgba1{
+    background-color: rgba($inverse, 10%)
+}
+
+
+/*    Border Mixins
+--------------------------*/
+
+.border-primary {
+    border-color: $primary;
+}
+
+.border-secondary {
+    border-color: $secondary;
+}
+
+.border-success {
+    border-color: $success;
+}
+
+.border-info {
+    border-color: $info;
+}
+
+.border-danger {
+    border-color: $danger;
+}
+
+.border-warning {
+    border-color: $warning;
+}
+
+.border-dark {
+    border-color: $dark;
+}
+
+
+// Cryptocurrency
+
+.bg-btc{
+    background: #F7931A;
+    color: $white;
+}
+.bg-eth{
+    background: #345281;
+    color: $white;
+}
+.bg-xrp{
+    background: #346AA9;
+    color: $white;
+    
+}
+.bg-dash{
+    background: #1c75bc;
+    color: $white;
+    
+}
+
+
+

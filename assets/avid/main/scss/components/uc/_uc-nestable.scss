@@ -1,0 +1,37 @@
+ // Variable.scss
+
+.nestable-cart {
+    overflow: hidden;
+}
+
+// .dd-item > button {
+//     height: 2.1rem;
+// }
+.dd-handle {
+    color: $body-color;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    border: 1px solid $border;
+}
+.dd-handle:hover {
+    color: $body-color;
+    background: rgba(0, 0, 0, 0.25);
+}
+// #nestable2 .dd-handle {
+    // color: $body-color;
+    // border: 1px solid $border;
+    // background: rgba(0, 0, 0, 0.25);
+// }
+// #nestable2 .dd-handle:hover {
+//     background: rgba(0, 0, 0, 0.25);
+// }
+// #nestable2 .dd-item>button:before {
+//     color: $body-color;
+// }
+.dd3-content:hover {
+    color: $body-color;
+    background: rgba(0, 0, 0, 0.25);
+}
+.dd3-content {
+    color: $body-color;
+}

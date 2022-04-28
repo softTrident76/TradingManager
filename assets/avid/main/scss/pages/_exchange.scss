@@ -1,0 +1,40 @@
+
+
+.currency-exchange-big{
+    padding: 6.25rem 0;
+    background: url(../../assets/images/exchange/1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 0px;
+    border-radius: 5px;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: darken($primary, 20%);
+        opacity: 0.75;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .card-body{
+        z-index: 2;
+        color: #fff;
+        h2{
+            color: #fff;
+        }
+        .custom-select{
+            border-color: $primary;
+        }
+        .btn{
+            box-shadow: none;
+        }
+    }
+}
+
+
+
+

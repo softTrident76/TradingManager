@@ -1,0 +1,182 @@
+@import "../../abstracts/variable";
+@import "../../abstracts/mixin";
+
+
+.nav-tabs {
+    .nav-link {
+        color: $heading;
+        &:hover,&:focus{
+            border-color: transparent;
+        }
+
+        &:active {
+            color: $heading;
+        }
+    }
+}
+
+// tab style 1
+.custom-tab-1{
+
+    .nav{
+        border: 0;
+    }
+
+    .nav-item{
+    }
+
+    .nav-link{
+        font-size: 14px; 
+        font-weight: 600;
+        border: 0;
+        color: $white;
+        // border-radius: 0;
+
+        &:hover,&:focus{
+            border: 0;
+        }
+
+        &.active{
+            background: transparent;
+            border: 0;
+            border-bottom: 2px solid $primary;
+            color: $white;
+        }
+    }
+
+    .tab-content{
+    }
+
+    .tab-pane{
+        padding: 25px;
+        // background: $body-bg;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+// tab style 2
+.custom-tab-2{
+
+    .nav{
+        border: 0;
+    }
+
+    .nav-item{
+    }
+
+    .nav-link{
+        font-size: 14px; 
+        font-weight: 600;
+        border: 0;
+        // border-radius: 0;
+            color: $white;
+
+        &:hover,&:focus{
+            border: 0;
+        }
+
+        &.active{
+            background: $primary;
+            // border: 0;
+            border-top: 2px solid $primary;
+            color: $white;
+        }
+    }
+
+    .tab-pane{
+        padding: 25px;
+        // background: $body-bg;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+// tab style 3
+.custom-tab-3{
+
+    .nav{
+        border: 0;
+        // background: $body-bg;
+    }
+
+    .nav-item{
+        width: 100%;
+        // text-align: center;
+    }
+
+    .nav-link{
+        font-size: 14px; 
+        font-weight: 600;
+        border: 0;
+        // border-radius: 0;
+            color: $white;
+
+        &:hover,&:focus{
+            border: 0;
+        }
+
+        &.active{
+            color: $white;
+            background: $primary;
+            // border: 0;
+        }
+    }
+
+    .tab-pane{
+        padding: 25px;
+        // background: $body-bg;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
+// tab style 4
+.custom-tab-4{
+
+    .nav{
+        border: 0;
+        // background: $body-bg;
+    }
+
+    .nav-item{
+        width: 100%;
+        // text-align: center;
+    }
+
+    .nav-link{
+        font-size: 14px; 
+        font-weight: 600;
+        border: 0;
+        // border-radius: 0;
+            color: $white;
+
+        &:hover,&:focus{
+            border: 0;
+        }
+
+        &.active{
+            border-right: 2px solid $primary;
+            background: $primary;
+            // border: 0;
+            color: $white;
+        }
+    }
+
+    .tab-pane{
+        padding: 25px;
+        // background: $body-bg;
+
+        p{
+            margin-bottom: 0;
+        }
+    }
+}

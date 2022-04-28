@@ -1,0 +1,298 @@
+.custom_icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.search-filter-wrapper {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    border-radius: 3px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.filter-item {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.filter-item.is-active {
+    box-shadow: inset 0 -1px #DEDEDE;
+}
+
+.filter-item.is-active .filter-item-header {
+    background: #F0F0F0;
+    border-bottom: 1px solid #DEDEDE;
+    border-top: 1px solid #DEDEDE;
+}
+
+.filter-item-header {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    background: #fff;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.filter-item.is-active .filter-item-header::after {
+    width: 4px;
+}
+
+.filter-item-header::after {
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    background: #4DBD90;
+    bottom: -1px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+
+.search-result-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.search-result {
+    background: none;
+    position: relative;
+}
+
+.search-result-header {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #BEC0C2;
+    border-radius: 3px 3px 0 0;
+    color: #4D525B;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.search-result-header-input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+}
+
+.search-result-header-input .input-search {
+    padding-left: 40px;
+}
+
+.default-input {
+    height: 36px;
+    padding: 0 12px;
+}
+
+.default-input, .default-textarea, .large-input, .large-textarea, .small-input, .small-textarea, .xlarge-input, .xxlarge-input {
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    /*font-size: .875rem;*/
+    line-height: 20px;
+    background: #fff;
+    border: 1px solid #BEC0C2;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px transparent;
+    color: #1f2836;
+    display: inline-block;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    width: 100%;
+}
+
+.search-result-amount {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.search-result-input-sort {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dropdown, .dropup {
+    position: relative;
+}
+
+.search-result-item:hover {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.08), 0 2px 4px 0 rgba(0,0,0,.12);
+}
+
+.search-result-item:last-child {
+    margin: 0;
+}
+
+.search-result-item {
+    border-bottom: 1px solid #DEDEDE;
+    display: table;
+    min-height: auto;
+    padding: 15px;
+    padding-left: 30px;
+    position: relative;
+    width: 100%;
+    /*cursor: pointer;*/
+}
+
+.search-result-item:hover::after {
+    width: 4px;
+}
+
+.search-result-item::after {
+    -webkit-transition: all .1s ease-out;
+    transition: all .1s ease-out;
+    background: #4DBD90;
+    bottom: -1px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+
+.search-result-empty {
+     font-size: 18px;
+     line-height: 20px;
+     padding: 16px;
+ }
+
+.search-result-header-input .flicon-search {
+    height: 24px;
+    left: 10px;
+    position: absolute;
+    top: 7px;
+    width: 24px;
+}
+
+[class*=flicon-] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: transparent;
+    stroke: #4D525B;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.2px;
+}
+
+.like {
+    display: block;
+    background: url("../images/like.png");
+    width: 30px;
+    height: 26px;
+    border: none;
+}
+
+.comment {
+    display: block;
+    background: url("../images/comment.png");
+    width: 30px;
+    height: 26px;
+    border: none;
+}
+
+.report {
+    display: block;
+    background: url("../images/report.png");
+    width: 30px;
+    height: 26px;
+    border: none;
+}
+
+
+.frm {
+    width: 100%;
+}
+.Title1 th			{font: 16px Arial, sans-serif; font-weight: bold; text-align: center; height: 40px; background: #EEE;}
+.Title1 td			{font: 14px Arial, sans-serif; text-align: center; height: 30px;}
+.rowOver {
+    font-weight: bold;
+    background: #D2F5EE;
+}
+
+#videoResponseDiv {
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    background: black;
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px gray;
+    z-index: 998;
+    top:50%;
+    left:50%;
+    margin: -250px 0 0 -175px;
+    padding: 50px 15px 50px 15px;
+}
+
+.acceptCallButton {
+    display: block;
+    background: url("../images/accept_call.png");
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.rejectCallButton {
+    display: block;
+    background: url("../images/reject_call.png");
+    width: 50px;
+    height: 50px;
+    border: none;
+}

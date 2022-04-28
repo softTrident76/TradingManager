@@ -1,0 +1,14 @@
+[data-theme-version="dark"] {
+
+    .pagination {
+        .page-item {
+            .page-link {
+                background-color: $d-bg;
+                border: 1px solid $d-border;
+                color: $d-ctl;
+            }
+        }
+    }
+
+
+}

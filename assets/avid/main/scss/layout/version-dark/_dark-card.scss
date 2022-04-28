@@ -1,0 +1,26 @@
+[data-theme-version="dark"] {
+
+    .card {
+        background: $dark-card;
+        box-shadow: none;
+        border-color: $d-border;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        &.transparent-card {
+            background: transparent;
+        }
+
+        &-footer {
+            background-color: $dark-card;
+            border-color: $d-border;
+        }
+
+        &-style {
+            background: $dark-card;
+        }
+    }
+
+}

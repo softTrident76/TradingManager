@@ -1,0 +1,302 @@
+@import "../../abstracts/variable";
+@import "../../abstracts/mixin";
+
+
+[data-sidebar-style="full"][data-layout="vertical"] {
+    .menu-toggle {
+
+        .nav-header {
+            width: 3.75rem;
+            .brand-logo {
+                z-index: 999;
+
+                a {
+                    // padding: 1.35rem 1.625rem;
+
+                    b {
+                        img {
+                            margin-top: 0.4375rem;
+                        }
+                    }
+                }
+            }
+            .nav-control {
+                // z-index: -1;
+                .hamburger{
+                    // left: 3.75rem!important;
+                    .line{
+                        background-color: $dark!important;;
+                    }
+                }
+            }
+        }
+        
+        .header {
+            padding-left: 3.75rem;
+            width: 100%;
+
+            @at-root [direction="rtl"]#{&} {
+                padding-right: 3.75rem;
+                padding-left: 0;
+            }
+
+            .header-left {
+                // margin-left: 3.125rem;
+
+                // @at-root [direction="rtl"]#{&} {
+                //     margin-right: 3.125rem;
+                //     margin-left: auto;
+                // }
+
+                .drop-down {
+                    top: 0.3125rem;
+                }
+            }
+    
+            .header-content {
+                margin-left: 0;
+            }
+        }
+
+        .nk-sidebar {
+            width: 3.75rem;
+            overflow: visible;
+            position: absolute;
+            .nav-text {
+                display: none;
+            }
+            .slimScrollDiv,
+            .nk-nav-scroll {
+                overflow: visible !important;
+            }
+            .metismenu {
+                li {
+                    position: relative;
+                    a {
+                        padding: 0.8125rem 0.9375rem;
+                    }
+                    &>ul {
+                        position: absolute;
+                        left: 3.75rem;
+                        top: 2.8438rem;
+                        width: 11.875rem;
+                        z-index: 1001;
+                        display: none;
+                        padding-left: 1px;
+
+                        @at-root [direction="rtl"]#{&} {
+                            left: auto;
+                            right: 3.75rem;
+                        }
+
+                        li:hover {
+                            ul {
+                                display: block;
+                                left: 11.8125rem;
+                                top: 0;
+
+                                @at-root [direction="rtl"]#{&} {
+                                    right: 11.8125rem;
+                                    left: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+                &>li {
+                    transition: all 0.4s ease-in-out;
+
+                    &>a {
+                        
+                        &.has-arrow {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    a {
+                        text-align: center;
+                        &>i {
+                            margin-right: 0;
+                        }
+                    }
+
+                    &.mega-menu {
+
+                        &> ul.collapse:not(.in) {
+                            height: 252px !important;
+                        }
+
+                        &:hover {
+                            &>a {
+                                width: calc(70vw + 3.75rem);
+                            }
+
+                            &>ul {
+                                display: flex;
+                                flex-wrap: wrap;
+                                flex-direction: column;
+                                max-height: 13.75rem;
+                                width: 70vw;
+
+                                ul a {
+                                    width: 101%;
+                                }
+                            }
+                        }
+
+                        &-xl {
+                            &:hover {
+                                &>a {
+                                    width: calc(70vw + 3.75rem);
+                                }
+                                &>ul {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    max-height:21.875rem;
+                                    width: 70vw;
+    
+                                    ul a {
+                                        width: 101%;
+                                    }
+                                }
+                            }
+                        }
+
+                        &-lg {
+
+                            &:hover {
+                                &>a {
+                                    width: calc(55vw + 3.75rem);
+                                }
+
+                                &>ul {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    max-height:18.125rem;
+                                    width: 55vw;
+    
+                                    ul a {
+                                        width: 101%;
+                                    }
+                                }
+                            }
+                        }
+
+                        &-md {
+                            &:hover {
+                                &>a {
+                                    width: calc(45vw + 3.75rem);
+                                }
+                                &>ul {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    max-height: 18.75rem;
+                                    width: 45vw;
+    
+                                    ul a {
+                                        width: 101%;
+                                    }
+                                }
+                            }
+                        }
+
+                        &-sm {
+                            &:hover {
+                                &>a {
+                                    width: calc(22vw + 3.75rem);
+                                }
+                                &>ul {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: column;
+                                    max-height: 18.125rem;
+                                    width: 22vw;
+    
+                                    ul a {
+                                        width: 101%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+
+                        &:nth-last-child(-n + 3) {
+                            &>ul {
+                                bottom: 2.8438rem;
+                                top: auto;
+                            }
+                        }
+
+
+                        &>a {
+                            width: 15.625rem;
+                            background-color: $white;
+
+                            @at-root [data-theme-version="dark"]#{&} {
+                                background-color: $dark-card;
+                            }
+
+                            .nav-text {
+                                display: inline-block;
+                                padding-left: 1.6875rem;
+
+                                @at-root [direction="rtl"]#{&} {
+                                    padding-left: auto;
+                                    padding-right: 1.6875rem;
+                                }
+                            }
+                        }
+                        &>ul {
+                            display: block;
+                            height: auto;
+                            overflow: visible;
+                            a {
+                                padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
+                                margin-left: -.1rem;
+                            }
+                            ul a {
+                                padding: 0.625rem 0.9375rem 0.625rem 3rem;
+                                margin-left: -.1rem;
+                            }
+                        }
+                    }
+                }
+                .nav-label,
+                .nav-badge {
+                    display: none;
+                }
+            }
+            
+           
+
+
+        }
+
+
+        .content-body {
+            margin-left: 3.75rem;
+
+            @at-root [direction="rtl"]#{&} {
+                margin-right: 3.75rem;
+                margin-left: auto;
+            }
+        }
+
+        & + .footer {
+            padding-left: 3.75rem;
+
+            @at-root [direction="rtl"]#{&} {
+                padding-left: 0;
+                padding-right: 3.75rem;
+            }
+        }
+
+    }
+}

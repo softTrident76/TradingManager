@@ -1,0 +1,43 @@
+@import "../../abstracts/variable";
+
+
+
+input[type="checkbox"] {
+    &:after{
+        line-height: 1.5em;
+        content: '';
+        display: block;
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-top: -3px;
+        margin-left: -3px;
+        border: 1px solid $border;
+        border-radius: 0px;
+        background: $primary;
+        line-height: 1.3;
+    }
+
+    &:checked:after{
+        width: 1.2rem;
+        height: 1.2rem;
+        display: block;
+        content: "\f00c";
+        font-family: 'FontAwesome';
+        color: $white;
+        font-weight: 100;
+        text-align: center;
+    }
+
+}
+
+
+.form-check-label{
+    margin-left: 5px;
+}
+
+
+.form-check-inline {
+    .form-check-input {
+        margin-right: 0.625rem;
+    }
+}

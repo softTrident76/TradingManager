@@ -1,0 +1,17 @@
+#webticker-dark-icons {
+    font: inherit !important;
+    font-size: $font-size-base !important;
+    font-weight: normal !important;
+    color: $body-color;
+}
+
+.tickercontainer {
+
+    li {
+        padding: 0px 2rem !important;
+
+        .horizontal-card__menu {
+            max-width: 520px;
+        }
+    }
+}

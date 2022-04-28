@@ -1,0 +1,11 @@
+[data-theme-version="dark"] {
+    .vertical-card__menu {
+        .card-footer {
+            background-color: $d-bg;
+
+            span {
+                color: $d-ctl;
+            }
+        }
+    }
+}

@@ -1,0 +1,265 @@
+﻿<lang>
+ <eng>
+		<!-- signin -->
+		<welcome>Welcome</welcome>
+		<emailorusername>Email or username</emailorusername>
+		<username>Username</username>
+        <password>Password</password>
+        <forgotpassword>forgot passowrd</forgotpassword>
+        <signin>Sign In</signin>
+        <signup>Sign Up</signup>
+        <signout>Sign Out</signout>
+        <nonaccount>Don't you have an account</nonaccount>
+        <confirmpassword>Confirm password</confirmpassword>
+        <fullname>Fullname</fullname>
+        <email>Email</email>
+        <phonenumber>Phone number</phonenumber>
+        <sendcode>Send code</sendcode>
+        <verifycode>Verify code</verifycode>
+        <invalidemail>Invalid email</invalidemail>
+        <invalidnamepwd>Invalid username/password</invalidnamepwd>
+
+		<!-- nav -->		
+        <dashboard>Dashboard</dashboard>
+		<usrmanagement>User Managment</usrmanagement>
+		<sysconfiguration>System Configuration</sysconfiguration>
+		<trsctnhistory>Transaction History</trsctnhistory>
+		<dpsthistory>Deposit History</dpsthistory>
+		<navtitle>Navigation</navtitle>
+		<title>TradeManagement</title>
+		<logout>Logout</logout>
+		
+		<!-- Dashboard -->
+		<totalamount>Total Amount</totalamount>
+		<totalprofit>Total Profit</totalprofit>
+		<totalcommission>Total Commission</totalcommission>
+		<totalusers>Total Users</totalusers>
+		<pendingtransaction>Pending Transactions</pendingtransaction>
+		<id>ID</id>
+		<type>Type</type>
+		<currency>Currency</currency>
+		<amount>Amount</amount>
+		<price>Price</price>
+		<datetime>Datetime</datetime>
+		<action>Action</action>
+		<buysell>Buy/Sell</buysell>
+		<search>Search</search>
+		<insufficientuser>Insufficient Margin Users</insufficientuser>
+		<phone>Phone</phone>
+		<email>Email</email>
+		<margin>Margin</margin>
+		<balance>Balance</balance>
+		<basebalance>Base Balance</basebalance>
+		<profitestimated>Profit Estimated</profitestimated>
+		<latesttransactions>Latest Transactions</latesttransactions>
+		<baseamount>Base Amount</baseamount>
+		<quoteamount>Quote Amount</quoteamount>
+		<profit>Profit</profit>
+		<commission>Commission</commission>
+		<confirm>Confirm</confirm>
+		<confirmmessage>Do you really want to delete? Please make sure again.</confirmmessage>
+		<invalidmessage>invalid param</invalidmessage>
+		<msgsuccesssave>Success to save</msgsuccesssave>
+		<buy>Buy</buy>
+		<sell>Sell</sell>
+		<basecurrency>Base Currency</basecurrency>
+		<quotecurrency>Quote Currency</quotecurrency>
+		<ok>Ok</ok>
+		<cancel>Cancel</cancel>
+
+		<originalcoinuser>Original Coin Users</originalcoinuser>
+		<initialcoin>Initial coin</initialcoin>
+		<initialamount>Initial amount</initialamount>
+		<currentamount>Current amount</currentamount>
+		<startdate>Start Date</startdate>
+		<smilingusers>Smiling Users</smilingusers>
+		<basecoin>Base Coin</basecoin>
+		<quotecoin>Quote Coin</quotecoin>	
+		<usd>USD</usd>
+				
+		<!-- User Management -->
+		<add>Add</add>
+		<edit>Edit</edit>
+		<apikey>Api Key</apikey>
+		<apisecret>Api Secret</apisecret>
+		<passphrase>PassPhrase</passphrase>
+		<margin>Margin</margin>
+		<searchitem>Search Item...</searchitem>
+		<paginationinfo>Showing [0] to [1] of [2] entries [3] pages</paginationinfo>
+		<mobile>Mobile</mobile>
+		<resetbase>Reset Base</resetbase>
+		<start>Start</start>
+		<stop>Stop</stop>
+		<deposit>Deposit</deposit>
+		<delete>Delete</delete>
+		<save>Save</save>
+		<cancel>Cancel</cancel>
+		<msguid>should input uid</msguid>
+		<msgphone>should input phone</msgphone>
+		<msgapikey>should input api key</msgapikey>
+		<msgapisecret>should input api secret</msgapisecret>
+		<msgpassphrase>should input pass phrase</msgpassphrase>
+		<msgmargin>should input margin in number</msgmargin>
+		<msgamount>should input amount</msgamount>
+		<msgsuccessdelete>Success to delete</msgsuccessdelete>
+		<msgrevisonerror>user revision already gets occupied</msgrevisonerror>
+		<msgsuccesschange>Success to change status</msgsuccesschange>
+		<msgresetbaseerror>reset base already gets occupied</msgresetbaseerror>
+		<msgsuccessresetbase>Success to reset base</msgsuccessresetbase>
+
+		<msgtippingrate>should tipping rate in number</msgtippingrate>
+		<msginitialamount>should initial amount in number</msginitialamount>
+
+		<depositnow>Deposit Now</depositnow>
+		<adduser>Add User</adduser>
+		<edituser>Edit User</edituser>
+		<baseprice>Base Price</baseprice>
+		<quoteprice>Quote Price</quoteprice>
+		<status>Status</status>
+		<running>Running</running>
+		<stopped>Stopped</stopped>
+		<duplicateduser>ID gets duplicated. Please input another</duplicateduser>
+		<lastdate>Last date</lastdate>
+
+		<!-- System Management -->
+		<tippingrate>Tipping Rate</tippingrate>
+		<profitreturnrate>Profit Return Rate</profitreturnrate>
+		<tradingcoins>Trading Coins</tradingcoins>
+		<mapt>Max Amount Per Transaction</mapt>
+		<mma>Minimun Margin Amount</mma>
+		<refreshrate>Refresh Rate</refreshrate>
+		<second>SEC</second>			
+    </eng>
+
+    <chn>		
+		<!-- signin -->
+        <welcome>欢迎</welcome>
+        <emailorusername>电子邮件或用户名</emailorusername>
+        <username>用户名</username>
+        <password>密码</password>
+        <forgotpassword>忘记密码</forgotpassword>
+        <signin>登入</signin>
+        <signup>注册</signup>
+        <signout>退出登录</signout>
+        <nonaccount>账户不存在</nonaccount>
+        <confirmpassword>确认密码</confirmpassword>
+        <fullname>姓名</fullname>
+        <email>邮箱</email>
+        <phonenumber>手机号码</phonenumber>
+        <sendcode>发送验证码</sendcode>
+        <verifycode>验证码</verifycode>
+        <invalidemail>邮箱错误</invalidemail>
+        <invalidnamepwd>用户名或密码错误</invalidnamepwd>
+
+		<!-- nav -->
+        <dashboard>仪表盘</dashboard>
+		<usrmanagement>用户管理</usrmanagement>
+		<sysconfiguration>系统设置</sysconfiguration>
+		<trsctnhistory>交易记录</trsctnhistory>
+		<dpsthistory>充值记录</dpsthistory>
+		<navtitle>导航</navtitle>
+		<title>标题</title>
+		<logout>退出登录</logout>
+		
+		<!-- Dashboard -->
+		<totalamount>总数量</totalamount>
+		<totalprofit>利润总额</totalprofit>
+		<totalcommission>累计手续费</totalcommission>
+		<totalusers>总用户</totalusers>
+		<pendingtransaction>待处理交易</pendingtransaction>
+		<id>ID</id>
+		<type>类型</type>
+		<currency>币种</currency>
+		<amount>金额</amount>
+		<price>价格</price>
+		<datetime>数据更新时间</datetime>
+		<action>执行</action>
+		<buysell>买卖</buysell>
+		<search>搜索</search>
+		<insufficientuser>保证金不足</insufficientuser>
+		<phone>电话</phone>
+		<email>邮箱</email>
+		<margin>余额</margin>
+		<balance>数据</balance>
+		<basebalance>基础数据</basebalance>
+		<profitestimated>利润估值</profitestimated>
+		<latesttransactions>最新交易</latesttransactions>
+		<baseamount>卖出数量</baseamount>
+		<quoteamount>买入数量</quoteamount>
+		<profit>利润</profit>
+		<commission>手续费</commission>
+		<confirm>确认</confirm>
+		<confirmmessage>信息确认</confirmmessage>
+		<invalidmessage>信息无效</invalidmessage>
+		<msgsuccesssave>保存成功</msgsuccesssave>
+		<buy>购买</buy>
+		<sell>出售</sell>
+		<basecurrency>卖出币种</basecurrency>
+		<quotecurrency>买入币种</quotecurrency>
+		<ok>是的</ok>
+		<cancel>取消</cancel>
+
+		<originalcoinuser>Original Coin Users</originalcoinuser>
+		<initialcoin>Initial coin</initialcoin>
+		<initialamount>Initial amount</initialamount>
+		<currentamount>Current amount</currentamount>
+		<startdate>Start Date</startdate>
+		<smilingusers>Smiling Users</smilingusers>
+		<basecoin>Base Coin</basecoin>
+		<quotecoin>Quote Coin</quotecoin>	
+		<usd>USD</usd>
+		
+		<!-- User Management -->
+		<add>添加</add>				
+		<edit>Edit</edit>
+		<apikey>API 码</apikey>
+		<apisecret>API 密钥</apisecret>
+		<passphrase>密码</passphrase>
+		<margin>余额</margin>
+		<searchitem>项目搜索</searchitem>
+		<paginationinfo>分页信息/显示 [0] to [1] of [2] entries [3] 页数</paginationinfo>
+		<mobile>移动端</mobile>
+		<resetbase>重置基数</resetbase>
+		<start>开始</start>
+		<stop>停止</stop>
+		<deposit>保证金</deposit>
+		<delete>删除</delete>
+		<save>保存</save>
+		<cancel>取消</cancel>
+		<msguid>请输入</msguid>
+		<msgphone>请输入电话号码</msgphone>
+		<msgapikey>请输入API码</msgapikey>
+		<msgapisecret>请输入API密钥</msgapisecret>
+		<msgpassphrase>请输入密码</msgpassphrase>
+		<msgmargin>请输入余额</msgmargin>
+		<msgamount>请输入数量</msgamount>
+		<msgsuccessdelete>删除成功</msgsuccessdelete>
+		<msgrevisonerror>用户已存在</msgrevisonerror>
+		<msgsuccesschange>更改成功</msgsuccesschange>
+		<msgresetbaseerror>重置基数失败</msgresetbaseerror>
+		<msgsuccessresetbase>重置基数成功</msgsuccessresetbase>
+
+		<msgtippingrate>should tipping rate in number</msgtippingrate>
+		<msginitialamount>should initial amount in number</msginitialamount>
+
+		<depositnow>可用保证金</depositnow>
+		<adduser>添加用户</adduser>
+		<edituser>Edit User</edituser>
+		<baseprice>卖出价格</baseprice>
+		<quoteprice>买入价格</quoteprice>
+		<status>状态</status>
+		<running>运行</running>
+		<stopped>停止</stopped>
+		<duplicateduser>ID已存在，请重新输入</duplicateduser>
+		<lastdate>最后期限</lastdate>
+		
+		<!-- System Management -->
+		<tippingrate>利润率</tippingrate>
+		<profitreturnrate>利润回报率</profitreturnrate>
+		<tradingcoins>交易币种</tradingcoins>
+		<mapt>最高交易金额</mapt>
+		<mma>最低保证金</mma>
+		<refreshrate>刷新率</refreshrate>
+		<second>其它</second>	
+    </chn>   
+</lang>

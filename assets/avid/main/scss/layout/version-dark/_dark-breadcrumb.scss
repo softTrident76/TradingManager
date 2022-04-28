@@ -1,0 +1,11 @@
+[data-theme-version="dark"] {
+
+    .page-titles {
+        background-color: lighten($color: $d-bg, $amount: 1.8);
+
+        .breadcrumb li a {
+            color: $d-ctl;
+        }
+    }
+
+}

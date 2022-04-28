@@ -1,0 +1,1422 @@
+<!--
+ // **************************************************
+ // ******* Name: arvid
+ // ******* Description: Bootstrap 4 Admin Dashboard
+ // ******* Version: 1.0.0
+ // ******* Released on 2019-02-13 00:31:49
+ // ******* Support Email : quixlab.com@gmail.com
+ // ******* Support Skype : sporsho9
+ // ******* Author: Quixlab
+ // ******* URL: https://quixlab.com
+ // ******* Themeforest Profile : https://themeforest.net/user/quixlab
+ // ******* License: ISC
+ // ***************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Arvid - Bootstrap Cryptocurrency Admin Dashboard HTML Template</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="../../assets/plugins/chartist/css/chartist.min.css">
+    <link href="../css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader"><div class="spinner"><div class="spinner-a"></div><div class="spinner-b"></div></div></div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr">A </b>
+                    <span class="brand-title">Arvid</span>
+                </a>
+            </div>
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="toggle-icon"><i class="icon-menu"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                
+                <div class="header-left">
+                    <div class="header-search icons">
+                        <span class="header-magnifier"><i class="icon-magnifier"></i> </span>
+                        <form class="drop-down">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search Here">
+                                <div class="input-group-append">
+                                    <span class="input-group-text pl-3 pr-3">Search</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-right">
+
+                    <ul class="clearfix">
+                        <li class="icons">
+                            <a href="javascript:void(0)" class="">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge badge-primary">3</span>
+                            </a>
+                            <div class="drop-down animated flipInX dropdown-notfication">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-envelope"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">New message received</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-user"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">New account opened</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-success-lighten-2"><i class="icon-like"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">Liked our post</h5>
+                                                    <span class="notification-text">One hour ago</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void()">
+                                                <span class="mr-3 avatar-icon bg-danger-lighten-2"><i class="icon-calender"></i></span>
+                                                <div class="notification-content">
+                                                    <h5 class="notification-heading">Event Started</h5>
+                                                    <span class="notification-text">One hour ago</span> 
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a class="d-flex justify-content-between bg-primary px-4 text-white" href="javascript:void()">
+                                        <span>All Notifications</span>
+                                        <span><i class="mdi mdi-file-document-box"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons">
+                            <div class="user-img c-pointer">
+                                <img src="../../assets/images/users/1.jpg" height="40" width="40" alt="avatar">
+                                <strong class="ml-2">John Doe <span><i class="fa fa-caret-down ml-2"></i></span></strong>
+
+                            </div>
+                            <div class="drop-down dropdown-profile animated flipInX">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="app-profile.html">Profile</a>
+                                        </li>
+                                        <li><a href="app-calender.html">Calender</a>
+                                        </li>
+                                        <li><a href="email-inbox.html">Inbox <div class="badge gradient-3 badge-pill badge-primary">3</div></a>
+                                        </li>
+                                        <li><a href="page-user-lock.html">Lock Screen</a>
+                                        </li>
+                                        <li><a href="page-login.html">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">           
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li class="nav-label">Navigation</li>
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="mdi mdi-speedometer"></i><span class="nav-text">Home</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./index.html">Home One</a></li>
+                            <li><a href="./index-2.html">Home Two</a></li>
+                            <li><a href="./ico-marketcap.html">Marketcap</a></li>
+                            <li><a href="./ico-buy-sell.html">Buy and Sell</a></li>
+                            <li><a href="./ico-wallet.html">Wallet</a></li>
+                            <li><a href="./ico-exchange.html">Exchange</a></li>
+                            <li><a href="./ico-transaction.html">Transaction</a></li>
+                            <li><a href="./ico-gateway.html">Gateway</a></li>
+                            <li><a href="./ico-trading.html">Trading</a></li>
+                            <li><a href="./ico-ticker.html">Ticker</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-layers"></i><span class="nav-text">Options</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./layout-blank.html">Blank</a></li>
+                            <li><a href="./layout-one-column.html">One Column</a></li>
+                            <li><a href="./layout-two-column.html">Two column</a></li>
+                            <li><a href="./layout-fixed-header.html">Fixed Header</a></li>
+                            <li><a href="./layout-fixed-sidebar.html">Fixed Sidebar</a></li>
+                            <li><a href="./layout-horizontal-nav.html">Horizontal</a></li>
+                            <li><a href="./layout-rtl.html">RTL</a></li>
+                            <li><a href="./layout-boxed.html">Boxed</a></li>
+                            <li><a href="./layout-wide-boxed.html">Wide Boxed</a></li>
+                            <li><a href="./layout-wide.html">Wide</a></li>
+                            <li><a href="./layout-dark.html">Dark</a></li>
+                            <li><a href="./layout-light.html">Light</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-apps"></i><span class="nav-text">Apps</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./email-inbox.html">Mailbox</a></li>
+                            <li><a href="./app-profile.html">Profile</a></li>
+                            <li><a href="./app-calender.html">Calendar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./charts.html" aria-expanded="false"><i class="mdi mdi-chart-areaspline"></i> <span class="nav-text">Graphs</span></a></li>
+                    
+                    <li><a href="./ui-bootstrap.html" aria-expanded="false"><i class="mdi mdi-bootstrap"></i><span class="nav-text">Bootstrap</span></a></li>
+                    <li><a href="./components.html" aria-expanded="false"><i class="mdi mdi-power-plug"></i><span class="nav-text">Advanced</span></a></li>
+                    <li><a href="widget-basic.html" aria-expanded="false"><i class="mdi mdi-widgets"></i><span class="nav-text">Widget</span></a></li>
+                    
+                    <li><a href="./forms.html" aria-expanded="false"><i class="mdi mdi-file-document-box"></i><span class="nav-text">Forms</span></a></li>
+                    
+                    <li><a href="./tables.html" aria-expanded="false"><i class="mdi mdi-table"></i><span class="nav-text">Table</span></a></li>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-earth"></i><span class="nav-text">Pages</span></a>
+                        <ul aria-expanded="false">
+                            <li><a href="./page-login.html">Login</a></li>
+                            <li><a href="./page-register.html">Register</a></li>
+                            <li><a href="./page-user-lock.html">Lock Screen</a></li>
+                            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Erorr</a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="./page-error-400.html">Erorr 400</a></li>
+                                    <li><a href="./page-error-403.html">Erorr 403</a></li>
+                                    <li><a href="./page-error-404.html">Erorr 404</a></li>
+                                    <li><a href="./page-error-500.html">Erorr 500</a></li>
+                                    <li><a href="./page-error-503.html">Erorr 503</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+            <div class="row page-titles mx-0">
+                <div class="col-sm-6 p-md-0">
+                    <div class="breadcrumb-range-picker">
+                        <span><i class="icon-calender"></i></span>
+                        <span class="ml-1">August 08, 2017 - August 08, 2017</span>
+                    </div>
+                </div>
+                <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                        <li class="breadcrumb-item active"><a href="javascript:void(0)">Components</a></li>
+                    </ol>
+                </div>
+            </div>
+            <!-- row -->
+
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading mt-2">Easy Pie Chart</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-1" data-percent="45" data-size="100">
+                                            <div class="inner">
+                                                <img class="img-avatar" src="./../../assets/images/users/1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-2" data-percent="65" data-size="100">
+                                            <div class="inner">
+                                                <img class="img-avatar" src="./../../assets/images/users/2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-3" data-percent="95" data-size="100">
+                                            <div class="inner">
+                                                <img class="img-avatar" src="./../../assets/images/users/3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-4" data-percent="75" data-size="100">
+                                            <div class="inner">
+                                                <h5><b>75</b>%</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-5" data-percent="45" data-size="100">
+                                            <div class="inner">
+                                                <h5><b>45</b>%</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-4 col-6 my-1 my-lg-0">
+                                        <div class="easy-pie-chart pie-chart-6" data-percent="20" data-size="100">
+                                            <div class="inner">
+                                                <h5><b>20</b>%</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">ChartJS</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Basic Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="barChart_1"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Gradient Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="barChart_2"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Stalked Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="barChart_3"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Basic Line Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="lineChart_1"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Gradient Line Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="lineChart_2"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Dual Line Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="lineChart_3"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Basic Area Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="areaChart_1"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Gradinet Area Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="areaChart_2"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Dual Area Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="areaChart_3"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Radar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="radar_chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Pie Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="pie_chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Doughnut Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="doughnut_chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Polar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="polar_chart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Morris Chart</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Donught Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_donught" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Line Chart</h4>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <div id="morris_line" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 col-md-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_bar" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Line Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="line_chart_2" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_bar_stalked" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Area Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_area" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_bar_2" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Area Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_area_2" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-header pb-0">
+                                        <h4 class="card-title">Donught Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="morris_donught_2" class="morris_chart_height"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">AM Chart</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Finance</h4>
+                                <div id="duration-value-axis"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Revenue</h4>
+                                <div id="revenue-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Chart Map</h4>
+                                <div id="chartMap"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Zoomable Value Axis</h4>
+                                <div id="combined-bullet"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Chartist</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Advanced Smil Animation</h4>
+                                        <div id="smil-animations" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Simple line chart</h4>
+                                        <div id="simple-line-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line Scatter Diagram</h4>
+                                        <div id="scatter-diagram" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line chart with tooltips</h4>
+                                        <div id="line-chart-tooltips" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line chart with area</h4>
+                                        <div id="chart-with-area" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bi-polar Line chart with area only</h4>
+                                        <div id="bi-polar-line" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">SVG Path animation</h4>
+                                        <div id="svg-animation" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line Interpolation / Smoothing</h4>
+                                        <div id="line-smoothing" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Different configuration for different series</h4>
+                                        <div id="different-series" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">SVG Animations chart</h4>
+                                        <div id="svg-dot-animation" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bi-polar bar chart</h4>
+                                        <div id="bi-polar-bar" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Overlapping bars on mobile</h4>
+                                        <div id="overlapping-bars" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Multi-line labels</h4>
+                                        <div id="multi-line-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Stacked bar chart</h4>
+                                        <div id="stacked-bar-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Horizontal bar chart</h4>
+                                        <div id="horizontal-bar-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Extreme responsive configuration</h4>
+                                        <div id="extreme-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Label placement</h4>
+                                        <div id="label-placement-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Animating a Donut with Svg.animate</h4>
+                                        <div id="animating-donut" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Simple pie chart</h4>
+                                        <div id="simple-pie" class="ct-chart ct-golden-section simple-pie-chart-chartist"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Pie chart with custom labels</h4>
+                                        <div id="pie-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Gauge chart</h4>
+                                        <div id="gauge-chart" class="ct-chart ct-golden-section"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Flot Chart</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                        <div id="flotBar1" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                        <div id="flotBar2" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line Chart</h4>
+                                        <div id="flotLine1" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line Chart</h4>
+                                        <div id="flotLine2" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Line Chart</h4>
+                                        <div id="flotLine3" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Area Chart</h4>
+                                        <div id="flotArea1" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Area Chart</h4>
+                                        <div id="flotArea2" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Realtime Chart</h4>
+                                        <div id="flotRealtime1" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Realtime Chart</h4>
+                                        <div id="flotRealtime2" class="flot-chart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Piety Chart</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-3 col-6">
+                                            <h4 class="card-title mb-4">Bar Color 1</h4>
+                                            <div><span class="bar-colours-1">5,3,9,6,5,9,7,3,5,2</span> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <h4 class="card-title mb-4">Bar Color 2</h4>
+                                        <div><span class="bar-colours-2">5,3,2,-1,-3,-2,2,3,5,2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <h4 class="card-title mb-4">Bar Color 3</h4>
+                                        <div><span class="bar-colours-3">0,-3,-6,-4,-5,-4,-7,-3,-5,-2</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-6">
+                                        <h4 class="card-title mb-4">Pie Color</h4>
+                                        <div><span class="pie-colours-2">5,3,9,6,5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h4 class="card-title mb-4">Attributes</h4>
+                                        <div class=" row">
+                                            <div class="col-md-2 col-sm-4 col-6"><span class="data-attr" data-peity='{ "fill": ["rgb(192, 10, 39)", "rgba(192, 10, 39, .5)"],    "innerRadius": 10, "radius": 40 }'>1/7</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-4 col-6 mt-3 mt-md-0"><span class="data-attr" data-peity='{ "fill": ["rgb(0, 0, 128)", "rgba(0, 0, 128, .5)"], "innerRadius": 14, "radius": 36 }'>2/7</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-4 col-6 mt-3 mt-md-0"><span class="data-attr" data-peity='{ "fill": ["rgb(0, 171, 197)", "rgba(0, 171, 197, .5)"], "innerRadius": 16, "radius": 32 }'>3/7</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-4 col-6 mt-3 mt-md-0"><span class="data-attr" data-peity='{ "fill": ["rgb(206, 29, 118)", "rgba(206, 29, 118, .5)"],  "innerRadius": 18, "radius": 28 }'>4/7</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-4 col-6 mt-3 mt-md-0"><span class="data-attr" data-peity='{ "fill": ["rgb(7, 135, 234)", "rgba(7, 135, 234, .5)"],   "innerRadius": 20, "radius": 24 }'>5/7</span>
+                                            </div>
+                                            <div class="col-md-2 col-sm-4 col-6 mt-3 mt-md-0"><span class="data-attr" data-peity='{ "fill": ["#f21780", "rgba(242, 23, 128, .1)"], "innerRadius": 18, "radius": 20 }'>6/7</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Bar Chart</h4>
+                                        <div class="px-4"><span class="bar" data-peity='{ "fill": ["rgb(0, 0, 128)", "rgb(7, 135, 234)"]}'>6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Bar Chart</h4>
+                                        <div class="px-4"><span class="bar" data-peity='{ "fill": ["rgb(0, 0, 128)", "rgb(7, 135, 234)"]}'>6,2,8,4,-3,8,1,-3,6,-5,9,2,-8,1,4,8,9,8,2,1</span> 
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Bar Chart</h4>
+                                        <div class="px-4"><span class="bar" data-peity='{ "fill": ["rgb(7, 135, 234)", "rgb(0, 0, 128)"]}'>6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Line Chart</h4>
+                                        <div class="px-4"><span class="peity-line" data-width="100%">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Line Chart</h4>
+                                        <div class="px-4"><span class="peity-line" data-width="100%">6,2,8,4,-3,8,1,-3,6,-5,9,2,-8,1,4,8,9,8,2,1</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <h4 class="card-title mb-4">Line Chart</h4>
+                                        <div class="px-4"><span class="peity-line" data-width="100%">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 1</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#F44336", "rgba(244, 67, 54, .1)"]}'>5/8</span>
+                                                </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 2</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#34C73B", "rgba(52, 199, 59, .1)"]}'>250/650</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 3</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#00A2FF", "rgba(0, 162, 255, .1)"]}'>0.52/1.561</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 4</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#28D6C3 ", "rgba(40, 214, 195, .1)"]}'>1,4</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 5</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#0000FF", "rgba(0, 0, 255, .1)"]}'>226,134</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Pie 6</h4>
+                                        <div class=""><span class="pie" data-peity='{ "fill": ["#DCDCDC", "rgba(220, 220, 220, .1)"]}'>0.52,1.041</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 1</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(117, 180, 50)", "rgba(117, 180, 50, .5)"]}'>5/8</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 2</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(7, 135, 234)", "rgba(7, 135, 234, .5)"]}'>250/650</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 3</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(0, 171, 197)", "rgba(0, 171, 197, .5)"]}'>0.52/1.561</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 4</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(7, 135, 234)", "rgba(7, 135, 234, .5)"]}'>1,4</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 5</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(0, 0, 128)", "rgba(0, 0, 128, .5)"]}'>226,134</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-sm-4 col-6 mt-4 mt-md-0">
+                                        <h4 class="card-title mb-4">Donut 6</h4>
+                                        <div class=""><span class="donut" data-peity='{ "fill": ["rgb(117, 180, 50)", "rgba(117, 180, 50, .5)"]}'>0.52,1.041</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="card-title mb-4">Live Update</h4>
+                                        <div class=""><span class="updating-chart">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="content-heading">Sparkline Chart</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-4">
+                                        <h4 class="card-title">Line Chart</h4><span id="sparklinedash"></span> 
+                                    </div>
+                                    <div class="col-lg-4 col-sm-4">
+                                        <h4 class="card-title">SITE TRAFFIC</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="sparkline8"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-4">
+                                        <h4 class="card-title">SITE TRAFFIC</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="sparkline9"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6">
+                                        <h4 class="card-title">Bar Chart</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="spark-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <h4 class="card-title">Stacked Bar CHART</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="StackedBarChart"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-12 mt-3 mt-md-0">
+                                        <h4 class="card-title">Tristate charts</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="tristate"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-xl-3 col-xxl-6 col-md-6">
+                                        <h4 class="card-title">Composite Line Chart</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="sparkline-composite-chart"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-xxl-6 col-md-6">
+                                        <h4 class="card-title">Composite Bar Chart</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="composite-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-xxl-6 col-md-4 mt-4 mt-xl-0">
+                                        <h4 class="card-title">Bullet CHART</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="bullet-chart"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-2 col-xxl-4 col-md-4 mt-4 mt-xl-0">
+                                        <h4 class="card-title">PIE CHART</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="sparkline11"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-1 col-xxl-2 col-md-4 mt-4 mt-xl-0">
+                                        <h4 class="card-title">Box Plot</h4>
+                                        <div class="ico-sparkline">
+                                            <div id="boxplot"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed & Developed by <a href="https://themeforest.net/user/quixlab" target="_blank">Quixlab</a> 2018</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        
+        <!--**********************************
+            Right sidebar start
+        ***********************************-->
+        <div class="sidebar-right">
+            <a class="sidebar-right-trigger gradient-5-x" href="javascript:void(0)">
+                <span><i class="fa fa-cog fa-spin"></i></span>
+            </a>
+            <div class="sidebar-right-inner">
+                <div class="admin-settings">
+                    <h4>Pick your style</h4>
+                    <div>
+                        <p>Background</p>
+                        <select class="form-control" name="theme_version" id="theme_version">
+                            <option value="light">Light</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Layout</p>
+                        <select class="form-control" name="theme_layout" id="theme_layout">
+                            <option value="vertical">Vertical</option>
+                            <option value="horizontal">Horizontal</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Sidebar</p>
+                        <select class="form-control" name="sidebar_style" id="sidebar_style">
+                            <option value="full">Full</option>
+                            <option value="mini">Mini</option>
+                            <option value="compact">Compact</option>
+                            <option value="overlay">Overlay</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Sidebar position</p>
+                        <select class="form-control" name="sidebar_position" id="sidebar_position">
+                            <option value="static">Static</option>
+                            <option value="fixed">Fixed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Header position</p>
+                        <select class="form-control" name="header_position" id="header_position">
+                            <option value="static">Static</option>
+                            <option value="fixed">Fixed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Container</p>
+                        <select class="form-control" name="container_layout" id="container_layout">
+                            <option value="wide">Wide</option>
+                            <option value="boxed">Boxed</option>
+                            <option value="wide-boxed">Wide Boxed</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Direction</p>
+                        <select class="form-control" name="theme_direction" id="theme_direction">
+                            <option value="ltr">LTR</option>
+                            <option value="rtl">RTL</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Navigation Header</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_1" class="filled-in chk-col-primary" id="nav_header_bg_1">
+                                <label for="nav_header_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_2" class="filled-in chk-col-primary" id="nav_header_bg_2">
+                                <label for="nav_header_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_3" class="filled-in chk-col-primary" id="nav_header_bg_3">
+                                <label for="nav_header_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_4" class="filled-in chk-col-primary" id="nav_header_bg_4">
+                                <label for="nav_header_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_5" class="filled-in chk-col-primary" id="nav_header_bg_5">
+                                <label for="nav_header_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_6" class="filled-in chk-col-primary" id="nav_header_bg_6">
+                                <label for="nav_header_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_7" class="filled-in chk-col-primary" id="nav_header_bg_7">
+                                <label for="nav_header_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_8" class="filled-in chk-col-primary" id="nav_header_bg_8">
+                                <label for="nav_header_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_9" class="filled-in chk-col-primary" id="nav_header_bg_9">
+                                <label for="nav_header_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="navigation_header" value="color_10" class="filled-in chk-col-primary" id="nav_header_bg_10">
+                                <label for="nav_header_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Header</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_1" class="filled-in chk-col-primary" id="header_bg_1">
+                                <label for="header_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_2" class="filled-in chk-col-primary" id="header_bg_2">
+                                <label for="header_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_3" class="filled-in chk-col-primary" id="header_bg_3">
+                                <label for="header_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_4" class="filled-in chk-col-primary" id="header_bg_4">
+                                <label for="header_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_5" class="filled-in chk-col-primary" id="header_bg_5">
+                                <label for="header_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_6" class="filled-in chk-col-primary" id="header_bg_6">
+                                <label for="header_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_7" class="filled-in chk-col-primary" id="header_bg_7">
+                                <label for="header_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_8" class="filled-in chk-col-primary" id="header_bg_8">
+                                <label for="header_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_9" class="filled-in chk-col-primary" id="header_bg_9">
+                                <label for="header_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="header_bg" value="color_10" class="filled-in chk-col-primary" id="header_bg_10">
+                                <label for="header_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Sidebar</p>
+                        <div>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_1" class="filled-in chk-col-primary" id="sidebar_bg_1">
+                                <label for="sidebar_bg_1"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_2" class="filled-in chk-col-primary" id="sidebar_bg_2">
+                                <label for="sidebar_bg_2"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_3" class="filled-in chk-col-primary" id="sidebar_bg_3">
+                                <label for="sidebar_bg_3"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_4" class="filled-in chk-col-primary" id="sidebar_bg_4">
+                                <label for="sidebar_bg_4"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_5" class="filled-in chk-col-primary" id="sidebar_bg_5">
+                                <label for="sidebar_bg_5"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_6" class="filled-in chk-col-primary" id="sidebar_bg_6">
+                                <label for="sidebar_bg_6"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_7" class="filled-in chk-col-primary" id="sidebar_bg_7">
+                                <label for="sidebar_bg_7"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_8" class="filled-in chk-col-primary" id="sidebar_bg_8">
+                                <label for="sidebar_bg_8"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_9" class="filled-in chk-col-primary" id="sidebar_bg_9">
+                                <label for="sidebar_bg_9"></label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sidebar_bg" value="color_10" class="filled-in chk-col-primary" id="sidebar_bg_10">
+                                <label for="sidebar_bg_10"></label>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Right sidebar end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="../../assets/plugins/common/common.min.js"></script>
+    <script src="../js/custom.min.js"></script>
+    <script src="../js/settings.js"></script>
+    <script src="../js/quixnav.js"></script>
+    <script src="../js/styleSwitcher.js"></script>
+    
+    <!-- Chart ChartJS plugin files -->
+    <script src="../../assets/plugins/chart.js/Chart.bundle.min.js"></script>
+    <!-- Chart Morris plugin files -->
+    <script src="../../assets/plugins/raphael/raphael.min.js"></script>
+    <script src="../../assets/plugins/morris/morris.min.js"></script>
+    <!-- Chart Chartist plugin files -->
+    <script src="../../assets/plugins/chartist/js/chartist.min.js"></script>
+    <script src="../../assets/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+    <!-- Chart piety plugin files -->
+    <script src="../../assets/plugins/peity/jquery.peity.min.js"></script>
+    <!-- Chart sparkline plugin files -->
+    <script src="../../assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <!-- Easy pie chart plugin files -->
+    <script src="../../assets/plugins/easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <!-- Circle progress -->
+    <!-- <script src="../../assets/plugins/circle-progress/circle-progress.min.js"></script> -->
+    <!-- Chart flot plugin files -->
+    <script src="../../assets/plugins/flot/jquery.flot.js"></script>
+    <script src="../../assets/plugins/flot/jquery.flot.pie.js"></script>
+    <script src="../../assets/plugins/flot/jquery.flot.resize.js"></script>
+    <script src="../../assets/plugins/flot-spline/jquery.flot.spline.min.js"></script>
+
+    <script src="./../../assets/plugins/amcharts/amcharts.js"></script>
+    <script src="../../assets/plugins/amcharts/serial.js"></script>
+    <script src="../../assets/plugins/amcharts/plugins/dataloader.min.js"></script>
+    <script src="../../assets/plugins/amcharts/plugins/export.min.js"></script>
+    <script src="../../assets/plugins/amcharts/ammap.js"></script>
+    <script src="../../assets/plugins/amcharts/worldLow.js"></script>
+    <script src="../../assets/plugins/amcharts/pie.js"></script>
+    <script src="../../assets/plugins/amcharts/amstock.js"></script>
+
+
+    <script src="../../main/js/plugins-init/amchart-init.js"></script>
+    <script src="../js/plugins-init/chartjs-init.js"></script>
+    <script src="../js/plugins-init/chartist-init.js"></script>
+    <script src="../js/plugins-init/morris-init.js"></script>
+    <script src="../js/plugins-init/sparkline-init.js"></script>
+    <script src="../js/plugins-init/easy-pie-chart-init.js"></script>
+    <script src="../js/plugins-init/flot-init.js"></script>
+    <script src="../js/plugins-init/piety-init.js"></script>
+
+
+
+</body>
+
+</html>

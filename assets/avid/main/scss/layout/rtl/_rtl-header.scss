@@ -1,0 +1,99 @@
+// html[dir="rtl"] {
+
+    //header styles
+    [direction="rtl"] {
+        .header {
+            padding-right: 15rem;
+            padding-left: 0;
+
+            @include respond('phone-land') {
+                padding-right: 2.3438rem;
+                padding-left: 0;
+            }
+
+            .nav-control {
+                right: 0.4375rem;
+                left: auto;
+            }
+
+            .header-left {
+                float: right;
+                margin-right: 4.6875rem;
+                margin-left: auto;
+                border-left: 0;
+                border-right: 1px solid $border;
+                padding-left: 0;
+                padding-right: 1.5625rem;
+
+                @at-root [data-container="boxed"]#{&} {
+                    margin-right: 3.125rem;   
+                }
+
+                @at-root [data-layout="horizontal"]#{&} {
+                    margin-right: 0; 
+                }
+            }
+
+            .header-right {
+                float: left;
+                padding-left: 0.9375rem;
+                padding-right: 0;
+
+                .icons {
+                    float: right;
+                }
+
+                .drop-down {
+                    right: auto;
+                    left: 0;
+
+                    .dropdown-content-body ul > li {
+                        text-align: right;
+
+                        .notification-content {
+                            margin-right: 4.0625rem;
+                            margin-left: 1.5625rem;
+                        }
+
+                        .notify-close {
+                            left: 0.9375rem;
+                            right: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        &[data-layout="horizontal"] {
+            .header {
+                padding-right: 9rem;
+                padding-left: 0;
+            }
+        }
+
+        &[data-sidebar-style="mini"] {
+            .header {
+                padding-right: 3.75rem;
+            }
+
+            &[data-layout="horizontal"] {
+                .header {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        &[data-sidebar-style="compact"] {
+            .header {
+                padding-right: 9.375rem;
+            }
+
+            &[data-layout="horizontal"] {
+                .header {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+// }
